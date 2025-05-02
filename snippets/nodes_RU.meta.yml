@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 2397cc1c-db95-42f2-843d-c1fe7368c6c0
-  port: 31511
-  server: free.2apzhfa.xyz
+  name: 0|🇷🇺 俄罗斯 01 | 1x RU
+  password: e3638391-9853-4ab2-8fd0-4610934fa52d
+  port: 36511
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 2|🇷🇺1 |  5.4MB/s
@@ -64,12 +64,13 @@ proxies:
   up: 1000 Mbps
 - auth: dongtaiwang.com
   delay: 1135
-  name: 2|🇷🇺7 |  5.2MB/s
+  name: 2,10|سرور راگن رر @vmess_ir
   password: dongtaiwang.com
   port: 10011
   server: hy2.694463.xyz
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
   type: hysteria2
 - client-fingerprint: chrome
   name: 14|RU_speednode_0013
@@ -87,9 +88,9 @@ proxies:
       Host: ru01.abvpn.ru
     path: /websocket
 - cipher: chacha20-ietf-poly1305
-  name: 15|🇷🇺 俄罗斯 01 | 1x RU
-  password: b8f6e6dd-a49e-4ff2-ba7c-4e1ef83da552
-  port: 36511
-  server: free.2weradf.xyz
+  name: 15|🇷🇺俄罗斯 01 | 1x RU
+  password: 165ea675-2f3c-40ac-ae3b-efbe301c1918
+  port: 31511
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
