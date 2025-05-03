@@ -1,4 +1,25 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: bf340e53-35bb-4f79-8c04-24a9b12fafde
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: bf340e53-35bb-4f79-8c04-24a9b12fafde
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: bf340e53-35bb-4f79-8c04-24a9b12fafde
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 2|🇺🇸3 |  1.8MB/s
@@ -542,21 +563,21 @@ proxies:
     path: /lzjjjjjjj666-tr?ed=2048
 - cipher: chacha20-ietf-poly1305
   name: 15|🇺🇸美国 01 | 1x US Los Angeles
-  password: c51d2139-ce0f-494d-93e1-3b6adee333f8
+  password: 2cc651a9-88b8-4c41-859c-293cd743b918
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 15|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: c51d2139-ce0f-494d-93e1-3b6adee333f8
+  password: 2cc651a9-88b8-4c41-859c-293cd743b918
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 15|🇺🇸美国 03 | 1x US Washington
-  password: c51d2139-ce0f-494d-93e1-3b6adee333f8
+  password: 2cc651a9-88b8-4c41-859c-293cd743b918
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
