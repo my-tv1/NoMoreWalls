@@ -1,14 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 262e1e26-af26-45d9-9b9a-a6e2daade34f
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 90f5fc5c-229f-45f6-a553-150cfec98da6
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 25c0589c-848f-4729-96dc-fb215ac5bf7d
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 262e1e26-af26-45d9-9b9a-a6e2daade34f
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 25c0589c-848f-4729-96dc-fb215ac5bf7d
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
@@ -16,7 +23,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇬🇧1 |  3.4MB/s
+  name: 3|🇬🇧1 |  3.4MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -28,20 +35,6 @@ proxies:
   type: vless
   udp: false
   uuid: 4c41dd88-6632-4c7a-8dbb-e276bf78b357
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇭🇰 香港 01 | 1x HK
-  password: f47ed3a2-2eaf-4132-b2df-93b2d9667b4d
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇬🇧 英国住宅IP 01 | 1x UK
-  password: f47ed3a2-2eaf-4132-b2df-93b2d9667b4d
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - name: 12|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
