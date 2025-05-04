@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 90f5fc5c-229f-45f6-a553-150cfec98da6
+  password: 501f8ead-b8a1-483f-806e-ec6abeecf94e
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 90f5fc5c-229f-45f6-a553-150cfec98da6
+  password: 501f8ead-b8a1-483f-806e-ec6abeecf94e
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 01 | 1x KR
-  password: 25c0589c-848f-4729-96dc-fb215ac5bf7d
+  password: 13583fc3-95d4-4525-904b-ab9fb4863cda
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 02 | 1x KR
-  password: 25c0589c-848f-4729-96dc-fb215ac5bf7d
+  password: 13583fc3-95d4-4525-904b-ab9fb4863cda
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
@@ -97,11 +97,32 @@ proxies:
   tls: false
   type: vmess
   uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13|🇰🇷 韩国|@ripaojiedian
+  port: 11212
+  server: 12.wogg1.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7234ac18-c61d-3d60-a866-057af106620c
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 13|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.199.191.145
+  server: 3.112.233.244
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 14|韩国|@ripaojiedian
+  network: tcp
+  port: '11212'
+  server: 12.wogg1.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7234ac18-c61d-3d60-a866-057af106620c

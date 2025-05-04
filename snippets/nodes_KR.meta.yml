@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 90f5fc5c-229f-45f6-a553-150cfec98da6
+  password: 501f8ead-b8a1-483f-806e-ec6abeecf94e
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 90f5fc5c-229f-45f6-a553-150cfec98da6
+  password: 501f8ead-b8a1-483f-806e-ec6abeecf94e
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 01 | 1x KR
-  password: 25c0589c-848f-4729-96dc-fb215ac5bf7d
+  password: 13583fc3-95d4-4525-904b-ab9fb4863cda
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 02 | 1x KR
-  password: 25c0589c-848f-4729-96dc-fb215ac5bf7d
+  password: 13583fc3-95d4-4525-904b-ab9fb4863cda
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
@@ -158,43 +158,36 @@ proxies:
     headers:
       host: cz.ylks0033.dpdns.org
     path: /?ed=2560
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13|🇰🇷 韩国|@ripaojiedian
+  port: 11212
+  server: 12.wogg1.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7234ac18-c61d-3d60-a866-057af106620c
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 13|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.199.191.145
+  server: 3.112.233.244
   tfo: false
   type: ss
-- name: 15|KR_speednode_0037
-  network: ws
-  port: 14896
-  server: 222.117.231.32
-  servername: miku.mikuru.ip-ddns.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
-  ws-opts:
-    headers:
-      Host: miku.mikuru.ip-ddns.com
-    path: /?ed=2560
-- name: 15|KR_speednode_0038
-  network: ws
-  port: 10943
-  server: 14.39.43.121
-  servername: miku.mikuru.ip-ddns.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
-  ws-opts:
-    headers:
-      Host: miku.mikuru.ip-ddns.com
-    path: /?ed=2560
-- name: 15|KR_speednode_0040
+- alterId: 2
+  cipher: auto
+  name: 14|韩国|@ripaojiedian
+  network: tcp
+  port: '11212'
+  server: 12.wogg1.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7234ac18-c61d-3d60-a866-057af106620c
+- name: 15|KR_speednode_0020
   network: ws
   port: 12416
   server: 121.174.200.92
@@ -208,17 +201,31 @@ proxies:
     headers:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- name: 15|KR_speednode_0042
+- name: 15|KR_speednode_0021
   network: ws
-  port: 50000
-  server: 210.99.119.3
-  servername: ed.sosocn.filegear-sg.me
-  skip-cert-verify: false
+  port: 14896
+  server: 222.117.231.32
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 699f6733-5766-42f0-a05b-da23c5ee3817
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
   ws-opts:
     headers:
-      Host: ed.sosocn.filegear-sg.me
+      Host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
+- name: 15|KR_speednode_0023
+  network: ws
+  port: 10943
+  server: 14.39.43.121
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
