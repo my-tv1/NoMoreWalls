@@ -1,44 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 8d968ef9-788d-4711-81c2-c7c8b9a74ecd
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 8d968ef9-788d-4711-81c2-c7c8b9a74ecd
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 8d968ef9-788d-4711-81c2-c7c8b9a74ecd
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 3dece2cc-9ea9-46d8-9b0a-b7efffd180fe
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: e1e3681b-13ee-484c-a133-d600e917f9a0
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 3dece2cc-9ea9-46d8-9b0a-b7efffd180fe
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: e1e3681b-13ee-484c-a133-d600e917f9a0
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 3dece2cc-9ea9-46d8-9b0a-b7efffd180fe
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: e1e3681b-13ee-484c-a133-d600e917f9a0
   port: 36215
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: ef029aa6-8011-4795-8b82-203995588e45
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: ef029aa6-8011-4795-8b82-203995588e45
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: ef029aa6-8011-4795-8b82-203995588e45
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
@@ -552,29 +552,3 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 15|US_speednode_0074
-  network: ws
-  password: Ng35283528
-  port: 443
-  server: 104.16.83.176
-  skip-cert-verify: false
-  sni: c2.validbv3528.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: c2.validbv3528.eu.org
-    path: /?ed=2560
-- name: 15|US_speednode_0085
-  network: ws
-  password: 8aa7e179-739d-4195-bceb-d3e3fddf3df9
-  port: 443
-  server: time.is
-  skip-cert-verify: true
-  sni: digitaloceanusargo.lzj520hxw.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: digitaloceanusargo.lzj520hxw.dpdns.org
-    path: /lzjjjjjjj666-tr?ed=2048
