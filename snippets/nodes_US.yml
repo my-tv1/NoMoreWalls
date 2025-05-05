@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: ec92c813-17bc-4a2f-b4fa-2c388d8deb7e
-  port: 36211
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 4bcbdeed-21df-42fa-9558-5b983d94260c
+  port: 31211
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: ec92c813-17bc-4a2f-b4fa-2c388d8deb7e
-  port: 36213
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 4bcbdeed-21df-42fa-9558-5b983d94260c
+  port: 31213
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: ec92c813-17bc-4a2f-b4fa-2c388d8deb7e
-  port: 36215
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 4bcbdeed-21df-42fa-9558-5b983d94260c
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
@@ -485,31 +485,10 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸美国 01 | 1x US Los Angeles
-  password: 8707f522-1d38-4de8-bce0-7efd739b7b83
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 8707f522-1d38-4de8-bce0-7efd739b7b83
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸美国 03 | 1x US Washington
-  password: 8707f522-1d38-4de8-bce0-7efd739b7b83
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|美国|@ripaojiedian
+  name: 12,13|美国|@ripaojiedian
   network: ws
   port: '8004'
   server: 59.42.247.189
@@ -525,7 +504,7 @@ proxies:
     path: /nmkj
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -538,7 +517,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|美国3|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -555,7 +534,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|美国4|@ripaojiedian
+  name: 12,13|美国4|@ripaojiedian
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
@@ -569,3 +548,24 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇺🇸 美国 01 | 1x US Los Angeles
+  password: e7943798-6777-4189-b9d5-d2fac208b4a8
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: e7943798-6777-4189-b9d5-d2fac208b4a8
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇺🇸 美国 03 | 1x US Washington
+  password: e7943798-6777-4189-b9d5-d2fac208b4a8
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
