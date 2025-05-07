@@ -1,44 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 4e5c0a29-200a-4dcc-85c7-ce23473a9d3e
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 4e5c0a29-200a-4dcc-85c7-ce23473a9d3e
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 4e5c0a29-200a-4dcc-85c7-ce23473a9d3e
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸美国 01 | 1x US Los Angeles
-  password: c8ac7ac5-e4c5-4a4c-a0f6-82d462dfca74
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: c6d8d917-1b7b-42f8-9a1b-bfc041091fb8
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: c8ac7ac5-e4c5-4a4c-a0f6-82d462dfca74
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: c6d8d917-1b7b-42f8-9a1b-bfc041091fb8
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸美国 03 | 1x US Washington
-  password: c8ac7ac5-e4c5-4a4c-a0f6-82d462dfca74
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: c6d8d917-1b7b-42f8-9a1b-bfc041091fb8
   port: 31215
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇺🇸 美国 01 | 1x US Los Angeles
+  password: f24aa007-c9a0-43b2-83e1-f44a859a64db
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: f24aa007-c9a0-43b2-83e1-f44a859a64db
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇺🇸 美国 03 | 1x US Washington
+  password: f24aa007-c9a0-43b2-83e1-f44a859a64db
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: '12|Channel id: @ShadowProxy66🇺🇸'
