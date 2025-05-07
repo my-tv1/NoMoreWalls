@@ -1,40 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 86c187f6-ec15-41fb-bd66-660706effcdd
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 86c187f6-ec15-41fb-bd66-660706effcdd
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇭🇰香港 02 | 1x HK
-  password: 62eaca33-12b0-4e90-a85c-01cd7548fe75
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: b875d629-9927-4a31-8f5b-861419a80c3c
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇭🇰香港家宽 03 | 1x HK
-  password: 62eaca33-12b0-4e90-a85c-01cd7548fe75
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: b875d629-9927-4a31-8f5b-861419a80c3c
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 12|香港🇭🇰 HY2
-  password: e20abb22a245edb0
-  port: 8443
-  server: fast.yxmm.xyz
-  skip-cert-verify: true
-  sni: TG频道@zqnb122100
-  tls: false
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 7f8b8875-a073-477c-ba4b-b1c6de30989e
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 7f8b8875-a073-477c-ba4b-b1c6de30989e
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 13|🇭🇰 香港|@ripaojiedian
   network: ws

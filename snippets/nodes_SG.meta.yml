@@ -1,37 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 86c187f6-ec15-41fb-bd66-660706effcdd
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 86c187f6-ec15-41fb-bd66-660706effcdd
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇸🇬新加坡 01 | 1x SG
-  password: 62eaca33-12b0-4e90-a85c-01cd7548fe75
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: b875d629-9927-4a31-8f5b-861419a80c3c
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇸🇬新加坡 02 | 1x SG
-  password: 62eaca33-12b0-4e90-a85c-01cd7548fe75
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: b875d629-9927-4a31-8f5b-861419a80c3c
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇸🇬新加坡 03 | 1x SG
-  password: 62eaca33-12b0-4e90-a85c-01cd7548fe75
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: b875d629-9927-4a31-8f5b-861419a80c3c
   port: 31175
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 7f8b8875-a073-477c-ba4b-b1c6de30989e
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 7f8b8875-a073-477c-ba4b-b1c6de30989e
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 12|Hysteria 🇸🇬 @v2meowcf
