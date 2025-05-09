@@ -1,39 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: 56ee3004-18b8-45aa-96e4-e353961bea41
+  password: 9742b8dd-7de2-48d4-8144-44d561b9fce2
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 56ee3004-18b8-45aa-96e4-e353961bea41
+  password: 9742b8dd-7de2-48d4-8144-44d561b9fce2
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港 02 | 1x HK
-  password: 85b1084f-82c1-4fe2-84b8-d69ddb71c0f0
+  password: 7f2df70a-48d0-4a8b-a271-80da4e64eae9
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 85b1084f-82c1-4fe2-84b8-d69ddb71c0f0
+  password: 7f2df70a-48d0-4a8b-a271-80da4e64eae9
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  delay: 1872
-  name: 3|🇭🇰1 |  4.8MB/s|0%|Netflix|Disn...
-  password: UDAKN2HJM6TYYJSP
-  port: 15009
-  server: 156.245.190.18
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -53,7 +46,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 3|🇭🇰3 |  2.0MB/s
+  name: 3|🇭🇰2 |  5.2MB/s|0%|Disney
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: '8313'
   server: 183.232.235.2
@@ -61,7 +54,7 @@ proxies:
   sni: hk-13-568.flztjc.net
   type: trojan
   udp: true
-- name: 3|🇭🇰4 |  6.5MB/s|0%
+- name: 3|🇭🇰3 |  2.2MB/s
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
   server: dozo01.flztjc.top
@@ -70,7 +63,7 @@ proxies:
   type: trojan
   udp: true
 - delay: 701
-  name: 3|🇭🇰5 |  1.4MB/s|0%|Netflix|Disn...
+  name: 3|🇭🇰4 |  1.5MB/s|Netflix|Disney|...
   network: ws
   port: 443
   server: 47.76.218.163
@@ -84,20 +77,23 @@ proxies:
     headers:
       Host: hkkkkkkkk.lzj520hxw.dpdns.org
     path: /lzjjjjjjjjjjjj6666
-- delay: 1607
-  name: 3|🇭🇰6 |  5.8MB/s|0%|Disney|Youtu...
-  network: ws
-  port: 443
-  server: nnchkclyx.codesofun.pp.ua
-  servername: nnchk.codesofun.pp.ua
+- name: 3|🇭🇰5 |  1.8MB/s|6%|Youtube
+  password: b6200af42ccadea353f5b5856dd20d70
+  port: 39001
+  server: 120.233.128.68
+  skip-cert-verify: true
+  sni: 120.233.128.68
+  type: trojan
+- client-fingerprint: chrome
+  name: 3|🇭🇰6 |  1.4MB/s|6%|Youtube
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 8443
+  server: hk02.sqx001.com
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 5f077162-99ad-424d-9f77-e5f7e37d9ef8
-  ws-opts:
-    headers:
-      Host: nnchk.codesofun.pp.ua
-    path: /ea3ac731
+  username: dmpyoary@mayorlogistic.com
 - client-fingerprint: chrome
   name: 13|🇭🇰 香港|@ripaojiedian
   network: ws
