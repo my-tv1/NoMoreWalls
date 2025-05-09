@@ -1,25 +1,61 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: f278c8f2-900e-4ae3-8d81-241c64340c7c
-  port: 31141
-  server: free.2apzhfa.xyz
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: ea4f2fd6-6ec2-4245-8f5b-cae546c1a753
+  port: 36141
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: f278c8f2-900e-4ae3-8d81-241c64340c7c
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 07d476a7-75f2-43fd-90f6-6ef4b350992a
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: ea4f2fd6-6ec2-4245-8f5b-cae546c1a753
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 3|🇬🇧1 |  2.8MB/s|46%|Openai
+  network: ws
+  port: '443'
+  server: 45.8.211.230
+  servername: CxNiMjJz.cAfUnEaR.InFo
+  tls: true
+  type: vless
+  udp: true
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: CxNiMjJz.cAfUnEaR.InFo
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+- auth: nfsn666
+  name: 3|🇬🇧2 |  5.7MB/s|62%|Youtube|Ope...
+  password: nfsn666
+  port: 8888
+  server: ld-arm.nfsn666.gq
+  skip-cert-verify: true
+  sni: ld-arm.nfsn666.gq
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 3|🇬🇧3 |  5.8MB/s|46%|Openai
+  network: ws
+  port: '443'
+  server: 45.131.6.160
+  servername: CxNiMjJz.cAfUnEaR.InFo
+  tls: true
+  type: vless
+  udp: true
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: CxNiMjJz.cAfUnEaR.InFo
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
+    path: /
+  xudp: true
 - name: 12|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
