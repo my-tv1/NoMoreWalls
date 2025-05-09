@@ -1,36 +1,65 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 62b02316-c08a-42d9-8a22-520f51201115
+  password: 9f9010a1-d9ff-435e-b11a-51c26b88dcf7
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 62b02316-c08a-42d9-8a22-520f51201115
+  password: 9f9010a1-d9ff-435e-b11a-51c26b88dcf7
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 62b02316-c08a-42d9-8a22-520f51201115
+  password: 9f9010a1-d9ff-435e-b11a-51c26b88dcf7
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇸🇬1 |  4.8MB/s|Youtube|Openai
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
+- name: 2|🇸🇬1 |  3.2MB/s|34%|Disney|Open...
+  network: ws
+  port: '80'
+  server: www.speedtest.net
+  servername: ipsychO.SUEx12.Ir
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /re5IzbZ9IZZMddtw?ed=2560/?JOKERRVPNJoin_Bade_Channel@JOKERRVPN
+  xudp: true
+- client-fingerprint: chrome
+  name: 2|🇸🇬2 |  2.0MB/s|Youtube|Openai|...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 8444
+  server: singapore02.sqx001.com
+  skip-cert-verify: true
+  sni: singapore02.sqx001.com
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
+- alterId: 0
+  cipher: auto
+  delay: 1603
+  name: 2|🇸🇬3 |  5.4MB/s|62%|Netflix|Dis...
+  network: ws
+  port: 8080
+  server: yx1.niaoba.top
+  tls: false
+  type: vmess
+  uuid: 763b29f0-ffba-42e8-a054-d595092135e6
+  ws-opts:
+    headers:
+      Host: 1176552658409.vmsg3.taobao.pdd.niaoba.top
+    path: /
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
@@ -133,14 +162,14 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   name: 15|🇸🇬 新加坡 01 | 1x SG
-  password: e166acd1-5c64-4231-b91b-dc7bc15f9129
+  password: c0e00a3a-4b12-41de-a50d-ea489c524b64
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 15|🇸🇬 新加坡 02 | 1x SG
-  password: e166acd1-5c64-4231-b91b-dc7bc15f9129
+  password: c0e00a3a-4b12-41de-a50d-ea489c524b64
   port: 36173
   server: free.2weradf.xyz
   type: ss

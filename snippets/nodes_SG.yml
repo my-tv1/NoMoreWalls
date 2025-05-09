@@ -1,36 +1,39 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 62b02316-c08a-42d9-8a22-520f51201115
+  password: 9f9010a1-d9ff-435e-b11a-51c26b88dcf7
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 62b02316-c08a-42d9-8a22-520f51201115
+  password: 9f9010a1-d9ff-435e-b11a-51c26b88dcf7
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 62b02316-c08a-42d9-8a22-520f51201115
+  password: 9f9010a1-d9ff-435e-b11a-51c26b88dcf7
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇸🇬1 |  4.8MB/s|Youtube|Openai
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
+- alterId: 0
+  cipher: auto
+  delay: 1603
+  name: 2|🇸🇬3 |  5.4MB/s|62%|Netflix|Dis...
+  network: ws
+  port: 8080
+  server: yx1.niaoba.top
+  tls: false
+  type: vmess
+  uuid: 763b29f0-ffba-42e8-a054-d595092135e6
+  ws-opts:
+    headers:
+      Host: 1176552658409.vmsg3.taobao.pdd.niaoba.top
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -92,14 +95,14 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   name: 15|🇸🇬 新加坡 01 | 1x SG
-  password: e166acd1-5c64-4231-b91b-dc7bc15f9129
+  password: c0e00a3a-4b12-41de-a50d-ea489c524b64
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 15|🇸🇬 新加坡 02 | 1x SG
-  password: e166acd1-5c64-4231-b91b-dc7bc15f9129
+  password: c0e00a3a-4b12-41de-a50d-ea489c524b64
   port: 36173
   server: free.2weradf.xyz
   type: ss

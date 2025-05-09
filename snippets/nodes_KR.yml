@@ -1,25 +1,24 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 62b02316-c08a-42d9-8a22-520f51201115
+  password: 9f9010a1-d9ff-435e-b11a-51c26b88dcf7
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 62b02316-c08a-42d9-8a22-520f51201115
+  password: 9f9010a1-d9ff-435e-b11a-51c26b88dcf7
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  delay: 772
-  name: 2|🇰🇷12 |  5.7MB/s|44%|Disney
-  password: qwerREWQ@@
-  port: 4857
-  server: 125.141.26.12
+  delay: 274
+  name: 2|🇰🇷11 |  2.4MB/s|Disney|Youtube...
+  password: 4QPol5
+  port: 23752
+  server: kr02.kkp.wtf
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -39,7 +38,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 15|🇰🇷 韩国 01 | 1x KR
-  password: e166acd1-5c64-4231-b91b-dc7bc15f9129
+  password: c0e00a3a-4b12-41de-a50d-ea489c524b64
   port: 36311
   server: free.2weradf.xyz
   type: ss
