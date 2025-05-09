@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 488c44db-822a-4ea1-b05a-cb5f0c1b5931
+  password: 714fb76c-2092-4ea8-aefc-a88fc0e3844c
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 488c44db-822a-4ea1-b05a-cb5f0c1b5931
+  password: 714fb76c-2092-4ea8-aefc-a88fc0e3844c
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 488c44db-822a-4ea1-b05a-cb5f0c1b5931
+  password: 714fb76c-2092-4ea8-aefc-a88fc0e3844c
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 01 | 1x TW
-  password: af02be92-3029-4950-9f31-b9b6bdef1085
+  password: 3730b9db-11c8-4bfe-9f9d-6ccf6d1a5005
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 02 | 1x TW
-  password: af02be92-3029-4950-9f31-b9b6bdef1085
+  password: 3730b9db-11c8-4bfe-9f9d-6ccf6d1a5005
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 03 | 1x TW
-  password: af02be92-3029-4950-9f31-b9b6bdef1085
+  password: 3730b9db-11c8-4bfe-9f9d-6ccf6d1a5005
   port: 36245
   server: free.2weradf.xyz
   type: ss
@@ -44,7 +44,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: randomized
-  name: 3|🇹🇼1 |  2.5MB/s|0%|Disney|Opena...
+  name: 3|🇹🇼1 |  1.3MB/s|0%|Disney|Opena...
   network: ws
   password: Aimer
   port: '443'
@@ -61,7 +61,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: randomized
-  name: 3|🇹🇼2 |  1.3MB/s|0%|Netflix|Open...
+  name: 3|🇹🇼2 |  1.4MB/s|Openai
   network: ws
   password: Aimer
   port: '443'
@@ -78,7 +78,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: randomized
-  name: 3|🇹🇼3 |  1.4MB/s|0%|Netflix|Disn...
+  name: 3|🇹🇼3 |  4.0MB/s|Netflix|Disney|...
   network: ws
   password: Aimer
   port: '2096'
@@ -93,11 +93,27 @@ proxies:
         Gecko) Chrome/40.0.2214.115 Safari/537.36
     path: /?ed=2560&proxyip=ts.hpc.tw
 - client-fingerprint: chrome
-  name: 3,13|🇹🇼 台湾|@ripaojiedian
+  name: 3,13,15|CN_speednode_0004
   password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
   port: 3462
   server: a10.taipeicitygovernment.kyiv.ua
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 45.32.28.232
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3|🇹🇼6 |  1.5MB/s|25%|Netflix|Dis...
+  password: 937f6b6168b6
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wt8v1.kvote.cn
+    mode: websocket
+    mux: true
+    path: /oqhygtklyhwi
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 103.137.62.194
+  tfo: false
+  type: ss
