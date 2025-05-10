@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 68104fba-2aad-4b3c-abe7-2363738511e1
+  password: 69757335-fb08-4887-8910-4b99e327c4b1
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 01 | 1x KR
-  password: dc210e23-fead-4b47-846f-492a262780be
+  password: b32dd92a-2bf8-4c82-83e9-5efc7850c9aa
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 02 | 1x KR
-  password: dc210e23-fead-4b47-846f-492a262780be
+  password: b32dd92a-2bf8-4c82-83e9-5efc7850c9aa
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 3|🇰🇷1 |  2.5MB/s|62%|Openai
+  name: 3|🇰🇷1 |  1.7MB/s|62%|Youtube|Ope...
   network: ws
   port: 2096
   server: dv4.789900.xyz
@@ -37,75 +37,15 @@ proxies:
       Host: dv4.789900.xyz
     path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
   xudp: true
-- name: 3|🇰🇷2 |  1.0MB/s|62%|Openai
-  network: ws
-  port: '8880'
-  server: 135.84.76.75
-  type: vless
-  udp: true
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  ws-opts:
-    headers:
-      Host: 23-lsjfjwiposkfls.hc2021.cfd
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
-  xudp: true
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇰🇷3 |  1.8MB/s|45%|Netflix|Ope...
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  tfo: true
-  type: ss
-  udp: true
-- delay: 766
-  name: 3|🇰🇷4 |  1.5MB/s|62%|Disney
-  network: ws
-  port: 443
-  server: 160.79.104.33
-  servername: hl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 3|🇰🇷5 |  5.3MB/s|44%|Netflix|Dis...
+  name: 3|🇰🇷2 |  2.9MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
   port: '4857'
   server: 125.141.26.12
   type: ss
   udp: true
-- name: 3|🇰🇷6 |  5.9MB/s|62%|Disney|Open...
-  network: ws
-  port: '80'
-  server: 104.17.148.22
-  servername: ipsychO.SUEx12.Ir
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: ipsycho.suex12.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /re5IzbZ9IZZMddtw?ed=2560/?JOKERRVPNJoin_Bade_Channel@JOKERRVPN
-  xudp: true
-- cipher: aes-256-cfb
-  name: 3|🇰🇷7 |  5.4MB/s|44%|Netflix|Dis...
-  password: qwerREWQ@@
-  port: '15098'
-  server: 125.141.31.72
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 3|🇰🇷8 |  3.4MB/s|0%|Disney|Youtu...
+  name: 3|🇰🇷3 |  2.3MB/s|0%|Youtube|Open...
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: kr01.sqx001.com
@@ -114,25 +54,56 @@ proxies:
   type: http
   udp: true
   username: dmpyoary@mayorlogistic.com
-- name: 3|🇰🇷9 |  2.2MB/s|62%|Disney|Open...
+- alterId: 0
+  cipher: auto
+  name: 3|🇰🇷4 |  4.8MB/s|63%|Youtube|Ope...
   network: ws
-  port: 443
-  server: julio.ns.cloudflare.com
-  servername: hl.ylka.dpdns.org
-  skip-cert-verify: true
+  port: 2087
+  server: lv4.789900.xyz
+  servername: lv4.789900.xyz
+  skip-cert-verify: false
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
   ws-opts:
     headers:
-      host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- delay: 962
-  name: 3|🇰🇷10 |  1.5MB/s|62%
+      Host: lv4.789900.xyz
+    path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+  xudp: true
+- cipher: aes-256-cfb
+  name: 3|🇰🇷5 |  6.2MB/s|44%|Netflix|Dis...
+  password: qwerREWQ@@
+  port: '15098'
+  server: p222.panda001.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 3|🇰🇷6 |  2.3MB/s|77%|Netflix|Dis...
+  password: qwerREWQ@@
+  port: '11389'
+  server: 221.150.109.89
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 3|🇰🇷7 |  5.8MB/s|77%|Netflix|Dis...
+  password: qwerREWQ@@
+  port: 11389
+  server: p231.panda004.net
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇰🇷8 |  4.0MB/s|44%|Netflix|Dis...
+  password: qwerREWQ@@
+  port: 4857
+  server: p227.panda004.net
+  tfo: true
+  type: ss
+  udp: true
+- delay: 980
+  name: 3|🇰🇷9 |  1.3MB/s|62%|Disney|Open...
   network: ws
   port: 443
-  server: dylan.ns.cloudflare.com
+  server: ashton.ns.cloudflare.com
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -143,11 +114,11 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- delay: 967
-  name: 3|🇰🇷11 |  1.3MB/s|62%|Disney|Ope...
+- delay: 970
+  name: 3|🇰🇷10 |  2.4MB/s|62%|Disney|Ope...
   network: ws
   port: 443
-  server: nikon.ns.cloudflare.com
+  server: otto.ns.cloudflare.com
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -158,34 +129,18 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- delay: 743
-  name: 3|🇰🇷12 |  5.8MB/s|Disney
+- delay: 1281
+  name: 3|🇰🇷11 |  5.8MB/s|Disney
   network: ws
+  password: slch2024
   port: 443
-  server: 160.123.255.65
-  servername: hl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
+  server: usa.visa.com
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- delay: 409
-  name: 3|🇰🇷13 |  1.2MB/s|62%|Disney|Ope...
-  network: ws
-  port: 8880
-  server: 195.85.59.75
-  servername: 23-lsjfjwiposkfls.hc2021.cfd
-  tls: false
-  type: vless
-  udp: true
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  ws-opts:
-    headers:
-      Host: 23-lsjfjwiposkfls.hc2021.cfd
+      Host: ocost-dy.wmlefl.cc
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -200,25 +155,10 @@ proxies:
   name: 13|🇰🇷 韩国特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 13.212.202.199
+  server: 52.197.184.25
   tfo: false
   type: ss
-- client-fingerprint: random
-  name: 15|KR_speednode_0022
-  network: ws
-  port: 10187
-  server: 121.189.106.45
-  servername: mot.luyuju.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8e0a197-2d5c-441e-a724-525379e4db3a
-  ws-opts:
-    headers:
-      Host: mot.luyuju.dpdns.org
-    path: /?ed=2560
-- name: 15|KR_speednode_0023
+- name: 15|KR_speednode_0013
   network: ws
   port: 50000
   server: 112.164.234.135
@@ -232,7 +172,7 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /?ed=2560
-- name: 15|KR_speednode_0024
+- name: 15|KR_speednode_0014
   network: ws
   port: 12297
   server: 220.73.70.34
@@ -247,7 +187,22 @@ proxies:
       Host: edccj.ambercc.filegear-sg.me
     path: /?ed=2560
 - client-fingerprint: random
-  name: 15|KR_speednode_0025
+  name: 15|KR_speednode_0015
+  network: ws
+  port: 10187
+  server: 121.189.106.45
+  servername: mot.luyuju.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8e0a197-2d5c-441e-a724-525379e4db3a
+  ws-opts:
+    headers:
+      Host: mot.luyuju.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 15|KR_speednode_0016
   network: ws
   port: 18796
   server: 61.74.213.66
