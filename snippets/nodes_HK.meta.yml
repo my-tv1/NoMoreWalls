@@ -1,20 +1,6 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 5451ebb9-2d72-4661-969e-693389505cae
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 5451ebb9-2d72-4661-969e-693389505cae
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 3|🇭🇰1 |  2.0MB/s|6%|Youtube
+  name: 1|🇭🇰1 |  2.0MB/s|6%|Youtube
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 8443
   server: hk04.sqx001.com
@@ -23,6 +9,34 @@ proxies:
   type: http
   udp: true
   username: dmpyoary@mayorlogistic.com
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 02 | 1x HK
+  password: a02c3fa3-511a-4b36-bb3d-5d8cf61b6100
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
+  password: a02c3fa3-511a-4b36-bb3d-5d8cf61b6100
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇭🇰香港 02 | 1x HK
+  password: 5809e9fb-2498-4ea5-9c83-0b11fd682e4f
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇭🇰香港家宽 03 | 1x HK
+  password: 5809e9fb-2498-4ea5-9c83-0b11fd682e4f
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 13|🇭🇰 香港|@ripaojiedian
   network: ws
