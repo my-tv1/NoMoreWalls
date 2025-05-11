@@ -1,32 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 1b3f1c30-411d-44b8-bd58-ba9f6911e9ff
+  password: 6c753a89-8625-4b23-9096-bf593da7d500
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 2|🇰🇷3 |  2.3MB/s|44%|Netflix|Dis...
+  name: 2|🇰🇷3 |  5.3MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
+  port: 4857
+  server: p227.panda004.net
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 2|🇰🇷4 |  3.8MB/s|49%|Youtube|Ope...
-  network: tcp
-  port: 17232
-  server: a64e572b-sutj40-tei4of-1qxa1.cm5.p5pv.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-  xudp: true
 - cipher: aes-256-cfb
-  delay: 772
-  name: 2|🇰🇷5 |  1.4MB/s|44%|Netflix|Ope...
+  name: 2|🇰🇷4 |  5.3MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
   port: 4857
   server: 125.141.26.12
@@ -55,6 +42,19 @@ proxies:
   server: 35.89.83.1
   tfo: false
   type: ss
+- name: 14|KR_speednode_0045
+  network: ws
+  password: '!!str 0588'
+  port: 50000
+  server: 175.203.30.93
+  skip-cert-verify: true
+  sni: 888.uskm.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 888.uskm.dpdns.org
+    path: /?ed=2560
 - name: 14|KR_speednode_0046
   network: ws
   password: Aimer
@@ -70,14 +70,14 @@ proxies:
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 15|🇰🇷韩国 01 | 1x KR
-  password: 71834f2a-dd66-4d68-b11f-a771095c2613
+  password: fe9fa417-692e-403c-897b-14f4f09c7e97
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 15|🇰🇷韩国 02 | 1x KR
-  password: 71834f2a-dd66-4d68-b11f-a771095c2613
+  password: fe9fa417-692e-403c-897b-14f4f09c7e97
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
