@@ -1,57 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 9a65346b-25e4-4b78-9254-e9bddd5743d7
+  password: 8a43e8b0-67ae-4472-9930-6bfc6581e61a
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 9a65346b-25e4-4b78-9254-e9bddd5743d7
+  password: 8a43e8b0-67ae-4472-9930-6bfc6581e61a
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 01 | 1x SG
-  password: a190260e-ccf2-44aa-98d0-9a8c8cf1d50c
+  password: b250a9c2-f34a-43a2-a140-4f8251c3d6c0
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 02 | 1x SG
-  password: a190260e-ccf2-44aa-98d0-9a8c8cf1d50c
+  password: b250a9c2-f34a-43a2-a140-4f8251c3d6c0
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 03 | 1x SG
-  password: a190260e-ccf2-44aa-98d0-9a8c8cf1d50c
+  password: b250a9c2-f34a-43a2-a140-4f8251c3d6c0
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: 3|🇸🇬2 |  1.4MB/s|34%|Disney|Open...
-  network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: '2053'
-  server: 172.66.44.214
-  skip-cert-verify: false
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
+- cipher: chacha20-ietf
+  name: 3|🇸🇬3 |  1.3MB/s|Netflix|Youtube...
+  password: asd123456
+  port: '8388'
+  server: 103.36.91.32
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /trGPZDfetEwuO25SAs?ed=2560
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -77,16 +66,3 @@ proxies:
   server: 3.112.193.115
   tfo: false
   type: ss
-- name: 15|SG_speednode_0024
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.180
-  skip-cert-verify: false
-  sni: tyep.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tyep.esslh.filegear-sg.me
-    path: /
