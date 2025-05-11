@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: f099a12f-210d-4bea-8212-f7aebba093a5
+  password: 36784873-2d74-42fe-ae3b-fa837b40adfb
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇷🇺 俄罗斯 01 | 1x RU
-  password: 7f9c31fe-cabc-459b-8098-160d64127969
+  password: e4fdcec5-4662-42c7-a281-1b4a40a6e683
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 3|🇷🇺5 |  5.4MB/s|0%|Youtube
+  name: 3|🇷🇺4 |  5.3MB/s|Youtube
   network: ws
   port: 20022
   server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
@@ -27,6 +27,14 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  delay: 1143
+  name: 3|🇷🇺5 |  1.6MB/s|50%|Youtube
+  password: hakmx9nHDGvBmbWQteeIXg
+  port: 1080
+  server: 89.23.113.166
+  type: ss
+  udp: true
 - name: 15|RU_speednode_0061
   network: ws
   password: Aimer
