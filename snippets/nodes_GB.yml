@@ -1,22 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: e2b202d2-e31a-4cdd-b96f-1c5615dc6bba
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- delay: 1556
-  name: 2|🇬🇧7 |  3.0MB/s|Openai
-  password: RlzoEILU
-  port: 8513
-  server: 36.151.251.61
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇬🇧英国家宽 01 | 1x UK
-  password: 272f03b6-d2fa-4101-8d5f-0663fc4e9743
+  name: 3|🇬🇧英国家宽 01 | 1x UK
+  password: 4586b660-a58c-4f79-89ce-f92eee3ea867
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
