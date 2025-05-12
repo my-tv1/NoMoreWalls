@@ -1,33 +1,18 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 2ada5225-dafd-48ac-b3fc-956230a63b7a
-  port: 36143
-  server: free.2weradf.xyz
+  name: 2|🇭🇰香港 02 | 1x HK
+  password: f7c8abdb-d8c9-43d8-89f9-e5b1a3980f21
+  port: 31143
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 2ada5225-dafd-48ac-b3fc-956230a63b7a
-  port: 36145
-  server: free.2weradf.xyz
+  name: 2|🇭🇰香港家宽 03 | 1x HK
+  password: f7c8abdb-d8c9-43d8-89f9-e5b1a3980f21
+  port: 31145
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰1 |  2.0MB/s|16%|Netflix|Dis...
-  network: ws
-  port: 8080
-  server: e9a671ea-sw1z40-t4vk19-1nlwy.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9247343a-5db0-11ee-9367-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: e9a671ea-sw1z40-t4vk19-1nlwy.hgc1.tcpbbr.net
-    path: /
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -154,16 +139,16 @@ proxies:
       Host: tyep.esslh.filegear-sg.me
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰香港 02 | 1x HK
-  password: 14bb8def-511b-4f30-9fa7-5c19ca349fb8
-  port: 31143
-  server: free.2apzhfa.xyz
+  name: 15|🇭🇰 香港 02 | 1x HK
+  password: b08f8b7f-197d-4f7b-96b5-26fabaad9c83
+  port: 36143
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰香港家宽 03 | 1x HK
-  password: 14bb8def-511b-4f30-9fa7-5c19ca349fb8
-  port: 31145
-  server: free.2apzhfa.xyz
+  name: 15|🇭🇰 香港住宅IP 03 | 1x HK
+  password: b08f8b7f-197d-4f7b-96b5-26fabaad9c83
+  port: 36145
+  server: free.2weradf.xyz
   type: ss
   udp: true
