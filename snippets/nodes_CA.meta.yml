@@ -1,75 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: e581c2d6-8c9c-4d53-a319-2a2baece9042
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 788fe05b-e1ef-41c2-9c6e-68224ff0ccac
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: c67afcba-cf48-43da-b4d0-e8bb3d65722c
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 3|🇨🇦1 |  1.0MB/s|62%|Netflix|Dis...
-  network: ws
-  port: 443
-  server: moura.ns.cloudflare.com
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦2 |  2.8MB/s|Disney|Gemini
-  network: ws
-  port: 443
-  server: 192.0.54.46
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦3 |  4.7MB/s|62%|Disney
-  network: ws
-  port: 55555
-  server: 128.14.140.2
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦4 |  5.3MB/s|62%|Netflix|Dis...
-  network: ws
-  port: 443
-  server: 192.0.54.146
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦5 |  2.0MB/s|62%|Disney|Yout...
+- name: 2|🇨🇦1 |  4.8MB/s|62%|Disney|Open...
   network: ws
   port: 443
   server: iplocation.io
@@ -83,10 +20,10 @@ proxies:
     headers:
       host: vx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 3|🇨🇦6 |  4.9MB/s|Disney|Youtube
+- name: 2|🇨🇦2 |  5.7MB/s|62%|Netflix|Dis...
   network: ws
   port: 443
-  server: time.is
+  server: 135.84.76.94
   servername: vx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -95,12 +32,12 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: vx.ylks0033.dpdns.org
+      Host: vx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 3|🇨🇦7 |  4.5MB/s|62%|Netflix|Dis...
+- name: 2|🇨🇦3 |  1.4MB/s|62%|Disney|Open...
   network: ws
   port: 443
-  server: 45.67.215.122
+  server: 192.0.63.200
   servername: vx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -109,12 +46,12 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: vx.ylks0033.dpdns.org
+      Host: vx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 3|🇨🇦8 |  4.9MB/s|62%|Netflix|Dis...
+- name: 2|🇨🇦4 |  1.7MB/s|62%|Disney|Open...
   network: ws
   port: 443
-  server: 140.238.158.238
+  server: 160.123.255.76
   servername: vx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -123,9 +60,9 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: vx.ylks0033.dpdns.org
+      Host: vx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 15|CA_speednode_0007
+- name: 14|CA_speednode_0007
   network: ws
   port: 80
   server: 44.31.62.3
@@ -139,7 +76,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 15|CA_speednode_0008
+- name: 14|CA_speednode_0008
   network: ws
   port: 80
   server: 44.31.62.3
@@ -153,3 +90,10 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇨🇦 加拿大 01 | 1x CA
+  password: e079df62-b428-4195-ad26-bb3322c6dbe5
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

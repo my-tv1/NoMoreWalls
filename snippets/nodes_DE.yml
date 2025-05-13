@@ -1,15 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: e581c2d6-8c9c-4d53-a319-2a2baece9042
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 788fe05b-e1ef-41c2-9c6e-68224ff0ccac
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: c67afcba-cf48-43da-b4d0-e8bb3d65722c
   port: 31471
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 2,14|BG_speednode_0005
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: bg.madison.eu.org
+  skip-cert-verify: true
+  sni: skwygx.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇩🇪 德国 01 | 1x DE
+  password: e079df62-b428-4195-ad26-bb3322c6dbe5
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
