@@ -583,14 +583,6 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
-- name: 15|CN_speednode_0094
-  password: b6200af42ccadea353f5b5856dd20d70
-  port: 39001
-  server: 120.233.128.68
-  skip-cert-verify: true
-  sni: 120.233.128.68
-  type: trojan
-  udp: true
 - name: 15|CN_speednode_0095
   password: beb150fd-b4b4-4347-bcb9-f23537fa1654
   port: 27101
