@@ -1,35 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: b1dacdad-be15-49b9-8772-4c6760f1072f
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: b1dacdad-be15-49b9-8772-4c6760f1072f
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: 060c8d0c-e9dd-4332-8944-100f15136df6
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 3e357c0d-788c-47d2-becb-6af0ce5beda3
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 060c8d0c-e9dd-4332-8944-100f15136df6
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 3e357c0d-788c-47d2-becb-6af0ce5beda3
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3,15|HK_speednode_0022
+  name: 2,15|HK_speednode_0022
   port: 20550
   reality-opts:
     public-key: cWs2mTxI3sdZlPYsRh239mJFnxi0Y8RmF-ZEtziFNQ8
@@ -40,7 +26,7 @@ proxies:
   type: vless
   udp: true
   uuid: 2d317da5-47c5-4db4-933f-16d1094668db
-- name: 3,15|US_speednode_0057
+- name: 2,15|US_speednode_0057
   network: ws
   port: 80
   server: 45.159.217.86
@@ -56,7 +42,7 @@ proxies:
     path: /re5IzbZ9IZZMddtw?ed=2560
 - alterId: 0
   cipher: auto
-  name: 3|🇭🇰3 |  3.7MB/s|16%|Disney|Yout...
+  name: 2|🇭🇰3 |  3.7MB/s|16%|Disney|Yout...
   network: ws
   port: 8080
   server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
@@ -70,7 +56,7 @@ proxies:
       Host: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
     path: /
 - client-fingerprint: chrome
-  name: 3|🇭🇰4 |  1.5MB/s|12%|Youtube
+  name: 2|🇭🇰4 |  1.5MB/s|12%|Youtube
   network: ws
   port: '443'
   server: 13.75.34.176
@@ -87,12 +73,26 @@ proxies:
     path: ''
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇭🇰5 |  2.4MB/s|0%|Youtube
+  name: 2|🇭🇰5 |  2.4MB/s|0%|Youtube
   password: be443689-bc64-49ff-85a5-8eecaa2235d3
   port: 41049
   server: hk2.fgmcx.top
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇭🇰香港 02 | 1x HK
+  password: a4c69c2f-0c43-499f-8037-e5c528123b60
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇭🇰香港家宽 03 | 1x HK
+  password: a4c69c2f-0c43-499f-8037-e5c528123b60
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 13|🇭🇰 香港|@ripaojiedian
   network: ws
