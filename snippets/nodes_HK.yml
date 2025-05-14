@@ -1,49 +1,100 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: 882dfcb0-44d3-400b-ab63-a0d7af8a16ae
+  password: 463eae79-148b-4ea9-a2e9-db81e40994b9
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 882dfcb0-44d3-400b-ab63-a0d7af8a16ae
+  password: 463eae79-148b-4ea9-a2e9-db81e40994b9
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: b977c657-e203-479d-b1a9-06839c3ac368
-  port: 36143
-  server: free.2weradf.xyz
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰2 |  2.4MB/s|15%|Youtube|Ope...
+  network: ws
+  port: 8080
+  server: 0e1121ca-swd340-teqqcv-1rc6n.hgc1.tcpbbr.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: aes-256-gcm
+  name: 3|🇭🇰3 |  6.1MB/s|100%|Netflix|Di...
+  password: QZ4L8ZDG75OFMFRU
+  port: '15012'
+  server: 183.2.157.135
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: b977c657-e203-479d-b1a9-06839c3ac368
-  port: 36145
-  server: free.2weradf.xyz
+- alterId: '2'
+  cipher: auto
+  name: 3|🇭🇰4 |  2.1MB/s|15%|Netflix|Dis...
+  network: ws
+  port: '80'
+  server: c0577990-sv2sg0-syydd8-k02s.hk.p5pv.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c915da48-3bc5-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+  xudp: true
+- alterId: '2'
+  cipher: auto
+  name: 3|🇭🇰5 |  1.3MB/s|15%|Disney|Yout...
+  network: ws
+  port: '80'
+  server: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
+    path: /
+  xudp: true
+- cipher: aes-256-gcm
+  name: 3|🇭🇰6 |  5.0MB/s|100%|Netflix|Di...
+  password: FB83ULXQR5LHF82K
+  port: '15010'
+  server: 183.2.157.135
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 3|🇭🇰7 |  5.8MB/s|100%|Netflix|Di...
+  password: V98N1K9OBXGHKC3X
+  port: '15005'
+  server: 183.2.157.135
   type: ss
   udp: true
 - alterId: 2
   cipher: auto
-  country: 🇭🇰 HK
-  delay: 2193
-  h2-opts: {}
-  http-opts: {}
-  name: 3|🇭🇰3 |  2.0MB/s|15%|Disney|Yout...
+  name: 3|🇭🇰8 |  2.3MB/s|15%|Youtube
   network: ws
   port: 80
   server: c0577990-sv2sg0-syydd8-k02s.hk.p5pv.com
-  servername: c0577990-sv2sg0-syydd8-k02s.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: c915da48-3bc5-11ec-bd7c-f23c913c8d2b
   ws-opts:
     headers:
-      HOST: c0577990-sv2sg0-syydd8-k02s.hk.p5pv.com
+      Host: c0577990-sv2sg0-syydd8-k02s.hk.p5pv.com
     path: /
 - alterId: 0
   cipher: auto
@@ -162,16 +213,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 15|HK_speednode_0036
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: us.madison.eu.org
-  skip-cert-verify: true
-  sni: skwygx.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: skwygx.top
-    path: /tr?ed=2560

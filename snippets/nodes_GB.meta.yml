@@ -1,67 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 882dfcb0-44d3-400b-ab63-a0d7af8a16ae
-  port: 31271
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 463eae79-148b-4ea9-a2e9-db81e40994b9
+  port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: b977c657-e203-479d-b1a9-06839c3ac368
-  port: 36271
-  server: free.2weradf.xyz
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 463eae79-148b-4ea9-a2e9-db81e40994b9
+  port: 31271
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
-  name: 3|🇬🇧1 |  4.8MB/s|0%|Netflix|Disn...
-  network: grpc
-  port: '2030'
-  reality-opts:
-    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-    short-id: 7fe29733
-  server: 74.220.23.227
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98e5553e-abcc-4c9a-941a-8f0e9741d541
-  xudp: true
-- name: 3|🇬🇧2 |  5.8MB/s|0%|Disney|Youtu...
-  network: ws
-  port: '80'
-  server: 104.17.147.22
-  type: vless
-  udp: true
-  uuid: 42da9e63-69da-408c-92fb-f4e3c61abd3e
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.lop.isvpython.online.
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: '@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY'
-  name: 3|🇬🇧3 |  4.2MB/s|33%|Openai
-  network: grpc
-  port: '2083'
-  reality-opts:
-    public-key: _Mo8etwPEDo42B4BnrkX3FOaPsOv2thyIlrzg3hhDBk
-    short-id: e09b0ba7d2
-  server: 77.110.100.177
-  servername: speedtest.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 108d0bd4-ed8a-4186-995f-8f49e3127699
-  xudp: true
 - down: ''
   fingerprint: ''
-  name: 3|🇬🇧4 |  4.0MB/s|61%|Netflix|Dis...
+  name: 3|🇬🇧1 |  1.7MB/s|61%|Youtube|Ope...
   obfs: ''
   obfs-password: ''
   password: nfsn666
@@ -71,6 +25,58 @@ proxies:
   sni: ld-arm.nfsn666.gq
   type: hysteria2
   up: ''
+- alpn:
+  - h2http/1.1
+  client-fingerprint: chrome
+  name: 3|🇬🇧2 |  5.7MB/s|44%|Openai
+  network: ws
+  port: '443'
+  server: www.speedtest.net
+  servername: SlZcZmPl2.ZuKaRiO.InFo
+  tls: true
+  type: vless
+  udp: true
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: SlZcZmPl2.ZuKaRiO.InFo
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /
+  xudp: true
+- name: 3|🇬🇧3 |  5.3MB/s|0%|Disney|Youtu...
+  network: ws
+  port: '80'
+  server: www.speedtest.net
+  type: vless
+  udp: true
+  uuid: 42da9e63-69da-408c-92fb-f4e3c61abd3e
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.lop.isvpython.online.
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn?ed=2048
+  xudp: true
+- alpn:
+  - h2http/1.1
+  client-fingerprint: chrome
+  name: 3|🇬🇧4 |  6.0MB/s|44%|Openai
+  network: ws
+  port: '443'
+  server: www.speedtest.net
+  servername: BmUcKcNq2.ZuKaRiO.InFo
+  tls: true
+  type: vless
+  udp: true
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: BmUcKcNq2.ZuKaRiO.InFo
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /
+  xudp: true
 - name: 12|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
@@ -79,10 +85,24 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 15|GB_speednode_0024
+- name: 15|GB_speednode_0022
   network: ws
   port: 80
-  server: 94.247.142.79
+  server: 94.247.142.38
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560
+- name: 15|GB_speednode_0023
+  network: ws
+  port: 80
+  server: 94.247.142.49
   servername: ipsycho.suex12.ir
   skip-cert-verify: false
   tls: false
@@ -107,20 +127,6 @@ proxies:
     headers:
       Host: ipsycho.suex12.ir
     path: /re5IzbZ9IZZMddtw?ed=2560
-- name: 15|GB_speednode_0026
-  network: ws
-  port: 80
-  server: 94.247.142.19
-  servername: ipsycho.suex12.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: ipsycho.suex12.ir
-    path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560
 - name: 15|GB_speednode_0027
   network: ws
   port: 80

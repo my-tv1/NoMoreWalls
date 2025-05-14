@@ -1,150 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 882dfcb0-44d3-400b-ab63-a0d7af8a16ae
+  password: 463eae79-148b-4ea9-a2e9-db81e40994b9
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 882dfcb0-44d3-400b-ab63-a0d7af8a16ae
+  password: 463eae79-148b-4ea9-a2e9-db81e40994b9
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 882dfcb0-44d3-400b-ab63-a0d7af8a16ae
+  password: 463eae79-148b-4ea9-a2e9-db81e40994b9
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: b977c657-e203-479d-b1a9-06839c3ac368
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: b977c657-e203-479d-b1a9-06839c3ac368
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: b977c657-e203-479d-b1a9-06839c3ac368
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 3|🇺🇸8 |  1.9MB/s|Openai|Gemini
-  password: RlzoEILU
-  port: 7815
-  server: 36.151.251.59
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 3|🇺🇸9 |  1.1MB/s|0%|Openai
-  network: ws
-  port: 443
-  server: ljm005-2.facai202408.com
-  servername: ljm005-2.facai202408.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b95bf0d8-c748-40b8-e243-6479d879c3d5
-  ws-opts:
-    headers:
-      Host: ljm005-2.facai202408.com
-    path: /b95bf0d8-
-- client-fingerprint: chrome
-  name: 3,15|CN_speednode_0016
-  password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d
-  port: 15229
-  server: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net
-  skip-cert-verify: false
-  sni: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 3|🇺🇸34 |  5.3MB/s|34%|Openai
-  network: ws
-  port: 80
-  server: 9e5560.82d35d19-d88c.shop
-  servername: us03s.82d35d19-d88c.shop
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5be76fa5-3758-4282-bb54-b1efabd6ba3d
-  ws-opts:
-    headers:
-      HOST: us03s.82d35d19-d88c.shop
-    path: /
-- name: 3|🇺🇸37 |  2.7MB/s|Openai
+- name: 3|🇺🇸17 |  5.1MB/s|Openai
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 12748b59-sw9ds0-t1bnjq-1krtb.cu.plebai.net
   skip-cert-verify: false
   type: trojan
-- name: 3|🇺🇸38 |  3.0MB/s|0%|Openai
-  network: ws
-  password: aTArbZ2F0E
-  port: 443
-  server: 172.66.168.209
-  sni: uSa-vp-27.bLAzECLOUD.SITE
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /linkvkws
-- alterId: 0
-  cipher: auto
-  name: 3|🇺🇸43 |  5.8MB/s|Netflix|Openai
-  network: ws
-  port: 2096
-  server: 141.101.120.253
-  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
-  ws-opts:
-    headers:
-      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
-    path: /
-  xudp: true
-- name: 3|🇺🇸87 |  3.2MB/s|46%|Openai
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 3|🇺🇸46 |  1.6MB/s|46%|Openai|Gem...
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
-  server: 26a33cb5-swb8g0-t1bnjq-1krtb.cu.plebai.net
-  tls: true
+  server: b5d29914-swb8g0-swy6li-tni2.cu.plebai.net
+  sni: b5d29914-swb8g0-swy6li-tni2.cu.plebai.net
   type: trojan
-- alterId: '0'
-  cipher: auto
-  name: 3|🇺🇸97 |  4.5MB/s|34%|Openai
-  network: ws
-  port: 80
-  server: 9e5560.82d35d19-d88c.shop
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5be76fa5-3758-4282-bb54-b1efabd6ba3d
-  ws-opts:
-    headers:
-      Host: us03s.82d35d19-d88c.shop
-    path: /
-  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
