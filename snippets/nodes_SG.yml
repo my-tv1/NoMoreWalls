@@ -1,37 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 64f2f806-885e-4e02-9c55-c93ae1f7946e
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 64f2f806-885e-4e02-9c55-c93ae1f7946e
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: a758100e-2472-4c26-adf3-9f964c6c6f93
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 04132271-415a-4f1e-b018-348c24fefa70
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: a758100e-2472-4c26-adf3-9f964c6c6f93
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 04132271-415a-4f1e-b018-348c24fefa70
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: a758100e-2472-4c26-adf3-9f964c6c6f93
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 04132271-415a-4f1e-b018-348c24fefa70
   port: 31175
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 2|🇸🇬2 |  5.8MB/s|0%|Netflix|Disn...
+  password: asd123456
+  port: '8388'
+  server: 103.36.91.32
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇸🇬 新加坡 01 | 1x SG
+  password: 1b6eb8cc-1e82-408c-b198-b46ad71f0031
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇸🇬 新加坡 02 | 1x SG
+  password: 1b6eb8cc-1e82-408c-b198-b46ad71f0031
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 2
@@ -76,33 +83,7 @@ proxies:
   server: 47.128.78.62
   tfo: false
   type: ss
-- name: 15|SG_speednode_0079
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 57621
-  server: 129.150.58.86
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=129.150.58.86:57621&proxyIP=null
-- name: 15|SG_speednode_0080
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 6666
-  server: 150.109.24.233
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=150.109.24.233:6666&proxyIP=null
-- name: 15|SG_speednode_0081
+- name: 15|SG_speednode_0048
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443

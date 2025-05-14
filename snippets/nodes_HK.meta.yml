@@ -1,138 +1,75 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 64f2f806-885e-4e02-9c55-c93ae1f7946e
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 64f2f806-885e-4e02-9c55-c93ae1f7946e
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: a758100e-2472-4c26-adf3-9f964c6c6f93
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 04132271-415a-4f1e-b018-348c24fefa70
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: a758100e-2472-4c26-adf3-9f964c6c6f93
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 04132271-415a-4f1e-b018-348c24fefa70
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: '2'
-  cipher: auto
-  name: 3|🇭🇰1 |  2.0MB/s|15%|Youtube
+- client-fingerprint: chrome
+  name: 2,15|RU_speednode_0044
   network: ws
   port: 80
-  server: 6dbaea45-sv0xs0-t9i7o2-1lt20.hk3.p5pv.com
+  server: 185.174.138.206
+  servername: ipsycho.suex12.ir
   skip-cert-verify: false
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: bf4ec108-f2b7-11ef-b654-f23c91cfbbc9
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-  xudp: true
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- client-fingerprint: chrome
+  name: 2|🇭🇰2 |  1.9MB/s|6%
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8443
+  server: hk04.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: podbbylf@mayorlogistic.com
 - alterId: 2
   cipher: auto
-  name: 3|🇭🇰2 |  1.4MB/s|15%|Netflix|Dis...
+  country: 🇭🇰 HK
+  delay: 2193
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇭🇰3 |  2.0MB/s|15%|Disney|Yout...
   network: ws
   port: 80
-  server: f49bcb46-sv2sg0-sw1w5j-1a3sy.hk.p5pv.com
-  servername: 🇭🇰HK-42.2.112.17-1137 | 18.733MB
-  skip-cert-verify: false
-  tls: false
+  server: c0577990-sv2sg0-syydd8-k02s.hk.p5pv.com
+  servername: c0577990-sv2sg0-syydd8-k02s.hk.p5pv.com
+  skip-cert-verify: true
   type: vmess
-  uuid: b93c66cc-00ed-11ec-8673-f23c9164ca5d
+  uuid: c915da48-3bc5-11ec-bd7c-f23c913c8d2b
   ws-opts:
     headers:
-      Host: f49bcb46-sv2sg0-sw1w5j-1a3sy.hk.p5pv.com
+      HOST: c0577990-sv2sg0-syydd8-k02s.hk.p5pv.com
     path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇭🇰3 |  3.7MB/s|15%|Disney|Yout...
-  network: ws
-  port: 80
-  server: ac759499-sv2sg0-sw26q2-php4.hk.p5pv.com
-  servername: 🇭🇰HK-42.2.112.17-6387 | 25.289MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: c648ecc0-838a-11ed-bd81-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: ac759499-sv2sg0-sw26q2-php4.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇭🇰4 |  3.2MB/s|15%|Youtube
-  network: ws
-  port: 80
-  server: 8cb66822-sv4n40-t2ke0u-1tif6.hk3.p5pv.com
-  servername: 🇭🇰HK-1.65.218.16-6373 | 11.648MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3ec273e4-0087-11f0-ab20-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 8cb66822-sv4n40-t2ke0u-1tif6.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇭🇰5 |  2.4MB/s|15%|Youtube
-  network: ws
-  port: 80
-  server: 9e6fe842-sv4n40-t6ctgc-1s3hd.hk3.p5pv.com
-  servername: 🇭🇰HK-1.65.218.16-6381 | 6.376MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 1c641c86-5078-11ef-a585-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 9e6fe842-sv4n40-t6ctgc-1s3hd.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇭🇰6 |  1.2MB/s|15%|Youtube
-  network: ws
-  port: 80
-  server: 62c1587e-sv2sg0-t2ke0u-1tif6.hk3.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3ec273e4-0087-11f0-ab20-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 62c1587e-sv2sg0-t2ke0u-1tif6.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇭🇰7 |  1.2MB/s|Youtube
-  network: ws
-  port: 80
-  server: 457a1492-sv4n40-t6kzbp-1h5u7.hk3.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 457a1492-sv4n40-t6kzbp-1h5u7.hk3.p5pv.com
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇭🇰 香港 02 | 1x HK
+  password: 1b6eb8cc-1e82-408c-b198-b46ad71f0031
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 1b6eb8cc-1e82-408c-b198-b46ad71f0031
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -250,7 +187,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 15|HK_speednode_0063
+- name: 15|HK_speednode_0036
   network: ws
   password: bpb-trojan
   port: 443
