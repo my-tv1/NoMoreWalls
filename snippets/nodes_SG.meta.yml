@@ -1,35 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: db6892dd-7853-4ea8-8914-bfec1c2fbda6
+  password: 60e8d56a-183c-40e4-88d5-fa0d86df008e
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: db6892dd-7853-4ea8-8914-bfec1c2fbda6
+  password: 60e8d56a-183c-40e4-88d5-fa0d86df008e
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: db6892dd-7853-4ea8-8914-bfec1c2fbda6
+  password: 60e8d56a-183c-40e4-88d5-fa0d86df008e
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: bf75a70f-3807-4b07-a761-4460e7399c3b
+  password: 339ac851-fdd6-4445-b356-421dc188d6e8
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: bf75a70f-3807-4b07-a761-4460e7399c3b
+  password: 339ac851-fdd6-4445-b356-421dc188d6e8
   port: 36173
   server: free.2weradf.xyz
   type: ss
@@ -51,20 +51,50 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- client-fingerprint: chrome
-  name: 3|🇸🇬2 |  5.6MB/s|Youtube|Openai
+- flow: none
+  name: 3,15|US_speednode_0033
   network: ws
-  port: 80
-  server: 141.193.213.20
+  port: 8080
+  server: support.zoom.us
+  servername: xrr.rtxconfigz.xyz
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
-  uuid: 628a3541-1b2d-43ab-ad4f-82b6406480fe
+  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
   ws-opts:
     headers:
-      Host: lk.sahanwickramasinghe.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
+      Host: xrr.rtxconfigz.xyz
     path: /
+- name: 3|🇸🇬3 |  5.7MB/s|Youtube|Openai
+  network: ws
+  port: '8080'
+  server: 170.114.45.6
+  servername: xrr.rtxconfigz.xyz
+  type: vless
+  udp: true
+  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
+  ws-opts:
+    headers:
+      Host: xrr.rtxconfigz.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: ''
+  xudp: true
+- name: 3|🇸🇬4 |  5.7MB/s|Youtube|Openai
+  network: ws
+  port: '8080'
+  server: 170.114.46.6
+  servername: xrr.rtxconfigz.xyz
+  type: vless
+  udp: true
+  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
+  ws-opts:
+    headers:
+      Host: xrr.rtxconfigz.xyz
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: ''
   xudp: true
 - name: 12|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH

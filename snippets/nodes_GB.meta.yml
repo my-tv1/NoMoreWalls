@@ -1,34 +1,34 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: db6892dd-7853-4ea8-8914-bfec1c2fbda6
+  password: 60e8d56a-183c-40e4-88d5-fa0d86df008e
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: db6892dd-7853-4ea8-8914-bfec1c2fbda6
+  password: 60e8d56a-183c-40e4-88d5-fa0d86df008e
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 01 | 1x HK
-  password: bf75a70f-3807-4b07-a761-4460e7399c3b
+  password: 339ac851-fdd6-4445-b356-421dc188d6e8
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: bf75a70f-3807-4b07-a761-4460e7399c3b
+  password: 339ac851-fdd6-4445-b356-421dc188d6e8
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - auth: nfsn666
-  name: 3|🇬🇧1 |  5.1MB/s|Youtube|Openai
+  name: 3|🇬🇧1 |  1.4MB/s|61%|Youtube|Ope...
   password: nfsn666
   port: 8888
   server: ld-arm.nfsn666.gq
@@ -36,6 +36,25 @@ proxies:
   sni: ld-arm.nfsn666.gq
   type: hysteria2
   udp: true
+- alpn:
+  - h2http/1.1
+  client-fingerprint: chrome
+  name: 3|🇬🇧2 |  5.9MB/s|44%|Openai
+  network: ws
+  port: '443'
+  server: www.speedtest.net
+  servername: SlZcZmPl2.ZuKaRiO.InFo
+  tls: true
+  type: vless
+  udp: true
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: SlZcZmPl2.ZuKaRiO.InFo
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /
+  xudp: true
 - name: 12|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
@@ -44,3 +63,17 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 15|GB_speednode_0016
+  network: ws
+  port: 80
+  server: 194.36.55.181
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
