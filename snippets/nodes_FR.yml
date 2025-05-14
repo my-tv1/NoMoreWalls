@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|🇫🇷5 |  2.2MB/s|100%|Openai
+  name: 2|🇫🇷5 |  2.2MB/s|100%|Openai
   network: ws
   port: 443
   server: 132.145.232.171
@@ -14,3 +14,11 @@ proxies:
     headers:
       Host: beyonddsz.cfd
     path: /linkws
+- name: 15|FR_speednode_0040
+  password: '!!str 74260665780162200'
+  port: 443
+  server: grown-doberman.shiner427.skin
+  skip-cert-verify: false
+  sni: grown-doberman.shiner427.skin
+  type: trojan
+  udp: true

@@ -1,35 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 60e8d56a-183c-40e4-88d5-fa0d86df008e
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 60e8d56a-183c-40e4-88d5-fa0d86df008e
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 60e8d56a-183c-40e4-88d5-fa0d86df008e
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 339ac851-fdd6-4445-b356-421dc188d6e8
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: e5d21561-bbac-41f2-b627-ed2dd17d08e6
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 339ac851-fdd6-4445-b356-421dc188d6e8
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: e5d21561-bbac-41f2-b627-ed2dd17d08e6
   port: 36173
   server: free.2weradf.xyz
   type: ss
@@ -37,7 +16,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,13,14|新加坡2|@ripaojiedian
+  name: 2,13,14|新加坡2|@ripaojiedian
   network: ws
   port: '46019'
   server: 112.29.213.228
@@ -52,12 +31,12 @@ proxies:
       Host: ''
     path: /zh-cn
 - flow: none
-  name: 3,15|US_speednode_0033
+  name: 2,15|US_speednode_0092
   network: ws
   port: 8080
   server: support.zoom.us
   servername: xrr.rtxconfigz.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
@@ -66,7 +45,7 @@ proxies:
     headers:
       Host: xrr.rtxconfigz.xyz
     path: /
-- name: 3|🇸🇬3 |  5.7MB/s|Youtube|Openai
+- name: 2|🇸🇬3 |  5.7MB/s|Youtube|Openai
   network: ws
   port: '8080'
   server: 170.114.45.6
@@ -81,7 +60,7 @@ proxies:
         like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: ''
   xudp: true
-- name: 3|🇸🇬4 |  5.7MB/s|Youtube|Openai
+- name: 2|🇸🇬4 |  5.7MB/s|Youtube|Openai
   network: ws
   port: '8080'
   server: 170.114.46.6
@@ -96,6 +75,27 @@ proxies:
         AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: ''
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇸🇬新加坡 01 | 1x SG
+  password: 9b0d76e6-ba7e-4b86-9796-159403c7cda0
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇸🇬新加坡 02 | 1x SG
+  password: 9b0d76e6-ba7e-4b86-9796-159403c7cda0
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇸🇬新加坡 03 | 1x SG
+  password: 9b0d76e6-ba7e-4b86-9796-159403c7cda0
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 12|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
@@ -145,3 +145,56 @@ proxies:
   server: 47.128.78.62
   tfo: false
   type: ss
+- name: 15|SG_speednode_0079
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 57621
+  server: 129.150.58.86
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=129.150.58.86:57621&proxyIP=null
+- name: 15|SG_speednode_0080
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 6666
+  server: 150.109.24.233
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=150.109.24.233:6666&proxyIP=null
+- name: 15|SG_speednode_0081
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 138.2.107.107
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=138.2.107.107:443&proxyIP=null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15|SG_speednode_0082
+  port: 56702
+  reality-opts:
+    public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
+    short-id: 792147b8
+  server: sg2.interld123456789.com
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1676447-0825-4b60-be37-735c9586735e
