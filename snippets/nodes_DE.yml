@@ -1,29 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: da4a11e0-9d93-4d14-b9f6-dc12984f332b
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 2|🇩🇪4 |  3.4MB/s|20%|Netflix|Dis...
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: us.madison.eu.org
-  skip-cert-verify: true
-  sni: skwygx.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: skwygx.top
-    path: /tr?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇩🇪德国 01 | 1x DE
-  password: 096b3999-949a-4de9-a168-a7c6c534b44c
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 04f142d2-b129-4253-aff7-db58295ef1c7
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 3|🇩🇪2 |  5.4MB/s|30%|Youtube|Ope...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.157.248.200
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
