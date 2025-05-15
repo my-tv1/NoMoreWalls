@@ -1,28 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: f9692869-caf2-4f72-9eb0-5af877ffde79
-  port: 36441
-  server: free.2weradf.xyz
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: bf362831-0aff-4453-be2e-e437cc033033
+  port: 31441
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇨🇦1 |  5.6MB/s|Disney|Openai
-  network: ws
-  port: 443
-  server: julio.ns.cloudflare.com
-  servername: sl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: sl.ylka.dpdns.org
-    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇨🇦2 |  5.6MB/s|2%|Netflix|Disn...
+  name: 3|🇨🇦1 |  1.3MB/s|2%|Netflix|Disn...
   network: tcp
   port: 56565
   reality-opts:
@@ -33,13 +19,48 @@ proxies:
   tls: true
   type: vless
   uuid: b1867b10-e968-44d1-9182-a674ef81ecb7
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇨🇦加拿大 01 | 1x CA
-  password: 8eb553af-24a6-41b6-861e-6ff457b5059a
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 3|🇨🇦2 |  5.2MB/s|62%|Disney
+  network: ws
+  port: 443
+  server: braden.ns.cloudflare.com
+  servername: sl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: sl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦3 |  1.2MB/s|Disney
+  network: ws
+  port: 443
+  server: 160.79.105.66
+  servername: sl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: sl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦4 |  5.3MB/s|Disney
+  network: ws
+  port: 443
+  server: 160.123.255.65
+  servername: sl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: sl.ylka.dpdns.org
+    path: /?ed=2560
 - name: 15|CA_speednode_0016
   password: '!!str 74260665780162200'
   port: 443
