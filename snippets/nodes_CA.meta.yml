@@ -1,48 +1,24 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: ae69d35b-7db7-4b04-ac04-896e797ca6b7
+  password: 162097a2-d38e-485a-880e-1225b0fab0a6
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 867cc1a7-83eb-4c53-a850-80019cc6715a
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- delay: 2286
-  name: 3|🇨🇦1 |  3.5MB/s|0%|Youtube|Open...
+- client-fingerprint: chrome
+  name: 2|🇨🇦1 |  2.5MB/s|0%|Youtube|Open...
   password: '!!str 74260665780162200'
-  port: 443
-  server: allowing-owl.shiner427.skin
+  port: '443'
+  server: 52.60.142.77
+  skip-cert-verify: false
   sni: allowing-owl.shiner427.skin
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 3|🇨🇦2 |  4.6MB/s|20%|Netflix|Dis...
-  network: tcp
-  port: '26113'
-  reality-opts:
-    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
-    short-id: 1fbd20fd
-  server: 40.233.80.61
-  servername: www.yahoo.com
-  tls: true
-  type: vless
   udp: true
-  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  xudp: true
 - client-fingerprint: chrome
   delay: 1887
   flow: xtls-rprx-vision
-  name: 3|🇨🇦3 |  5.5MB/s|2%|Netflix|Disn...
+  name: 2|🇨🇦2 |  5.7MB/s|2%|Netflix|Disn...
   network: tcp
   port: 56565
   reality-opts:
@@ -55,16 +31,10 @@ proxies:
   tls: true
   type: vless
   uuid: b1867b10-e968-44d1-9182-a674ef81ecb7
-- name: 15|CA_speednode_0009
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 140.238.158.238
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇨🇦 加拿大 01 | 1x CA
+  password: 06f2c322-1622-42b6-bbdc-dd7fcab0b09a
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=140.238.158.238:443&proxyIP=null
