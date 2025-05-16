@@ -1,65 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 7456fc48-cddd-49af-8d06-c737b5982a7b
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 7456fc48-cddd-49af-8d06-c737b5982a7b
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: b63f3c8c-8c94-49f1-8989-0ad9caa17f93
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: b63f3c8c-8c94-49f1-8989-0ad9caa17f93
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: b63f3c8c-8c94-49f1-8989-0ad9caa17f93
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 3,15|US_speednode_0137
-  network: ws
-  port: 8080
-  server: 170.114.46.6
-  servername: xrr.rtxconfigz.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
-  ws-opts:
-    headers:
-      Host: xrr.rtxconfigz.xyz
-    path: /
-  xudp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3,13|🇸🇬 新加坡2|@ripaojiedian
-  password: UAO72K511KYT7NM7
-  port: 16003
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   flow: none
-  name: 3,15|US_speednode_0136
+  name: 2,14|US_speednode_0126
   network: ws
   port: 8080
   server: support.zoom.us
@@ -73,38 +36,7 @@ proxies:
     headers:
       Host: xrr.rtxconfigz.xyz
     path: /
-- client-fingerprint: chrome
-  name: 3|🇸🇬4 |  1.0MB/s|61%|Youtube|Gem...
-  password: 25d55ad283aa400af464c76d713c07ad
-  port: 8444
-  server: singapore02.sqx001.com
-  skip-cert-verify: true
-  sni: singapore02.sqx001.com
-  tls: true
-  type: http
-  udp: true
-  username: podbbylf@mayorlogistic.com
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3|🇸🇬5 |  1.7MB/s|Youtube|Openai|...
-  port: 30028
-  server: i.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 61b159b3-860b-460b-a2e2-3c4ad3a42a23
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3|🇸🇬6 |  2.5MB/s|Netflix|Disney|...
-  port: 20015
-  server: i.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 61b159b3-860b-460b-a2e2-3c4ad3a42a23
-- name: 12|Hysteria 🇸🇬 @v2meowcf
+- name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -112,7 +44,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 12|新加坡
+- name: 11|新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -120,7 +52,7 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '12|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -131,7 +63,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -145,7 +77,15 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 15|SG_speednode_0088
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  password: UAO72K511KYT7NM7
+  port: 16003
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- name: 14|SG_speednode_0082
   network: ws
   port: 8880
   server: 92.243.74.20
@@ -159,7 +99,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|SG_speednode_0089
+- name: 14|SG_speednode_0083
   network: ws
   port: 2087
   server: 27.50.48.18
