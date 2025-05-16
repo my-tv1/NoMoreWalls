@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: 87afd0ea-10b9-4cd9-9640-2c1ab6456422
-  port: 31141
-  server: free.2apzhfa.xyz
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: f080bea1-4351-41dd-8db7-4831af7367b8
+  port: 36141
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 87afd0ea-10b9-4cd9-9640-2c1ab6456422
-  port: 31271
-  server: free.2apzhfa.xyz
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: f080bea1-4351-41dd-8db7-4831af7367b8
+  port: 36271
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - down: ''
   fingerprint: ''
-  name: 3|🇬🇧1 |  3.0MB/s|61%|Disney
+  name: 2|🇬🇧1 |  2.0MB/s|61%|Netflix|You...
   obfs: ''
   obfs-password: ''
   password: nfsn666
@@ -25,7 +25,40 @@ proxies:
   sni: ld-arm.nfsn666.gq
   type: hysteria2
   up: ''
-- name: 12|Hysteria 🇬🇧 @v2meowcf
+- name: 2|🇬🇧2 |  1.5MB/s|100%|Openai
+  network: ws
+  port: '8880'
+  server: 104.19.54.50
+  type: vless
+  udp: true
+  uuid: 3de43906-5511-4257-852f-ecb16c8324cb
+  ws-opts:
+    headers:
+      Host: V2rayArgoN.elmahstyle.xyz.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048
+  xudp: true
+- alpn:
+  - h2http/1.1
+  client-fingerprint: chrome
+  name: 2|🇬🇧3 |  5.4MB/s|44%|Openai
+  network: ws
+  port: '443'
+  server: www.speedtest.net
+  servername: BmUcKcNq2.ZuKaRiO.InFo
+  tls: true
+  type: vless
+  udp: true
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: BmUcKcNq2.ZuKaRiO.InFo
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /
+  xudp: true
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -34,7 +67,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 15|GB_speednode_0030
+  name: 14|GB_speednode_0030
   port: 55311
   reality-opts:
     public-key: YUcUHdfvj0h3EbIe2kLT9IM4J3Q1O3Cpb29gKxE2fwM
@@ -46,7 +79,7 @@ proxies:
   type: vless
   udp: true
   uuid: 52a0b1c0-0b8d-4e08-a2ae-89f6f13852b4
-- name: 15|GB_speednode_0031
+- name: 14|GB_speednode_0031
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -59,7 +92,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.237:443
-- name: 15|GB_speednode_0032
+- name: 14|GB_speednode_0032
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -72,7 +105,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.237:443&proxyIP=null
-- name: 15|GB_speednode_0033
+- name: 14|GB_speednode_0033
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -85,7 +118,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.254:443
-- name: 15|GB_speednode_0034
+- name: 14|GB_speednode_0034
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -98,7 +131,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.254:443&proxyIP=null
-- name: 15|GB_speednode_0035
+- name: 14|GB_speednode_0035
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -111,7 +144,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.227:443&proxyIP=null
-- name: 15|GB_speednode_0036
+- name: 14|GB_speednode_0036
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -124,7 +157,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.227:443
-- name: 15|GB_speednode_0037
+- name: 14|GB_speednode_0037
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -137,7 +170,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.51:443
-- name: 15|GB_speednode_0038
+- name: 14|GB_speednode_0038
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -150,7 +183,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.89:443&proxyIP=null
-- name: 15|GB_speednode_0039
+- name: 14|GB_speednode_0039
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -163,7 +196,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.51:443&proxyIP=null
-- name: 15|GB_speednode_0040
+- name: 14|GB_speednode_0040
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -176,3 +209,10 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.221:443&proxyIP=null
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇬🇧英国家宽 01 | 1x UK
+  password: 5720cef0-3168-4554-8643-d9de234e1c03
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

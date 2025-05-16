@@ -1,7 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 87afd0ea-10b9-4cd9-9640-2c1ab6456422
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: f080bea1-4351-41dd-8db7-4831af7367b8
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 2|🇩🇪6 |  1.5MB/s|22%|Disney|Open...
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: '2053'
+  server: 172.66.47.42
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /trGPZDfetEwuO25SAs?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇩🇪德国 01 | 1x DE
+  password: 5720cef0-3168-4554-8643-d9de234e1c03
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
