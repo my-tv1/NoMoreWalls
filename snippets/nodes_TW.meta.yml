@@ -1,49 +1,60 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: d3bfe810-d097-4984-a59a-291c9cad0c56
+  password: ad585200-62a5-4da4-adf7-80679743f0ff
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: d3bfe810-d097-4984-a59a-291c9cad0c56
+  password: ad585200-62a5-4da4-adf7-80679743f0ff
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: d3bfe810-d097-4984-a59a-291c9cad0c56
+  password: ad585200-62a5-4da4-adf7-80679743f0ff
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇹🇼 台湾 01 | 1x TW
-  password: de7bb3a2-377a-4dbb-b87b-90b1c682504d
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: be4950c4-301c-42b9-b851-a9e97dc3dd00
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇹🇼 台湾 02 | 1x TW
-  password: de7bb3a2-377a-4dbb-b87b-90b1c682504d
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: be4950c4-301c-42b9-b851-a9e97dc3dd00
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇹🇼 台湾 03 | 1x TW
-  password: de7bb3a2-377a-4dbb-b87b-90b1c682504d
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: be4950c4-301c-42b9-b851-a9e97dc3dd00
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 14|台湾|@ripaojiedian
+- delay: 680
+  name: 3|🇹🇼1 |  1.4MB/s|0%|Netflix|Disn...
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: 13,14|台湾|@ripaojiedian
   network: tcp
-  password: 4abad10b-be0d-48bf-ab8a-3311463084d4
+  password: 9f19a22d-60d0-4cf8-935d-ebcff8546054
   port: 42765
   server: wb.kaiqsz.com
   skip-cert-verify: true

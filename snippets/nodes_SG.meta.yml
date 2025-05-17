@@ -1,46 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: d3bfe810-d097-4984-a59a-291c9cad0c56
+  password: ad585200-62a5-4da4-adf7-80679743f0ff
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: d3bfe810-d097-4984-a59a-291c9cad0c56
+  password: ad585200-62a5-4da4-adf7-80679743f0ff
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: d3bfe810-d097-4984-a59a-291c9cad0c56
+  password: ad585200-62a5-4da4-adf7-80679743f0ff
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇸🇬 新加坡 01 | 1x SG
-  password: de7bb3a2-377a-4dbb-b87b-90b1c682504d
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: be4950c4-301c-42b9-b851-a9e97dc3dd00
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇸🇬 新加坡 02 | 1x SG
-  password: de7bb3a2-377a-4dbb-b87b-90b1c682504d
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: be4950c4-301c-42b9-b851-a9e97dc3dd00
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 2
   cipher: auto
-  name: 14|新加坡|@ripaojiedian
+  client-fingerprint: chrome
+  name: 13,14|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -48,3 +51,52 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13|🇸🇬 新加坡2|@ripaojiedian
+  port: 54652
+  server: 183.236.51.38
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 14|新加坡2|@ripaojiedian
+  network: tcp
+  port: '54652'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 15|SG_speednode_0082
+  network: ws
+  port: 8880
+  server: 92.243.74.20
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 15|SG_speednode_0083
+  network: ws
+  port: 2087
+  server: 27.50.48.18
+  servername: edccx.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccx.aimercc.filegear-sg.me
+    path: /?ed=2560
