@@ -1,14 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: c718902e-d341-4fe4-9fa8-143514b1b1e0
+  password: 87081ef0-fbe5-464d-9ff9-b45834cbde51
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: none
+  name: 2|🇩🇪6 |  4.3MB/s|0%|Openai
+  network: ws
+  port: '443'
+  server: de.vmess.comnpmjs.com
+  servername: de.vmess.comnpmjs.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+  ws-opts:
+    headers:
+      Host: de.vmess.comnpmjs.com
+    path: /vmess
+  xudp: true
 - cipher: chacha20-ietf-poly1305
   name: 3|🇩🇪德国 01 | 1x DE
-  password: 391fc366-4d0e-41ad-b602-67b9ba1b001f
+  password: 2657067e-7ae2-4ae4-8394-e466e2cf4dd9
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
