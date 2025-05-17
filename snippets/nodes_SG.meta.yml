@@ -1,39 +1,82 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 34c15bab-cc0c-4b82-ac05-7106f8103c55
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 34c15bab-cc0c-4b82-ac05-7106f8103c55
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 34c15bab-cc0c-4b82-ac05-7106f8103c55
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 199a905c-4bc1-4e9a-b601-3b4e368adab0
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 51a3d8bd-ff0f-4afe-b1e8-2f404371b559
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 199a905c-4bc1-4e9a-b601-3b4e368adab0
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 51a3d8bd-ff0f-4afe-b1e8-2f404371b559
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: f282b263-7444-4f18-9057-979758fa5a7b
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: f282b263-7444-4f18-9057-979758fa5a7b
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: f282b263-7444-4f18-9057-979758fa5a7b
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 3|🇸🇬1 |  1.9MB/s|61%|Youtube|Ope...
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8444
+  server: singapore02.sqx001.com
+  skip-cert-verify: true
+  sni: singapore02.sqx001.com
+  tls: true
+  type: http
+  udp: true
+  username: podbbylf@mayorlogistic.com
+- client-fingerprint: chrome
+  flow: none
+  name: 3,15|US_speednode_0126
+  network: ws
+  port: 8080
+  server: support.zoom.us
+  servername: xrr.rtxconfigz.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
+  ws-opts:
+    headers:
+      Host: xrr.rtxconfigz.xyz
+    path: /
+- delay: 2919
+  name: 3,15|US_speednode_0127
+  network: ws
+  port: 8080
+  server: 170.114.46.6
+  servername: xrr.rtxconfigz.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
+  ws-opts:
+    headers:
+      Host: xrr.rtxconfigz.xyz
+    path: /
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
