@@ -1,38 +1,38 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1,12|🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 01 | 1x KR
-  password: 2c9d529f-b22a-414b-b9a3-4f6cd6b3d35a
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: c9c59927-05b7-47eb-93e5-4f06cb90bb55
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: c9c59927-05b7-47eb-93e5-4f06cb90bb55
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 0d8c6bdd-10a3-4fd3-bcfd-a61330c434a0
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国2|@ripaojiedian
+  name: 3,13|🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ@@
+  port: 15098
+  server: 125.141.31.72
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇰🇷 韩国2|@ripaojiedian
   password: qwerREWQ@@
   port: 4652
   server: p141.panda001.net
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇰🇷韩国 01 | 1x KR
-  password: 32d2c855-33e7-4018-9a4e-b4051507150d
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇰🇷韩国 02 | 1x KR
-  password: 32d2c855-33e7-4018-9a4e-b4051507150d
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
