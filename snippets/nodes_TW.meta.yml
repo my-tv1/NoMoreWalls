@@ -1,48 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: fd07adb5-cc93-4c78-a3e8-b73e80ea531f
+  password: 4d18c3ca-11fa-4679-ac1d-976c0bc70a0d
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: fd07adb5-cc93-4c78-a3e8-b73e80ea531f
+  password: 4d18c3ca-11fa-4679-ac1d-976c0bc70a0d
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: fd07adb5-cc93-4c78-a3e8-b73e80ea531f
+  password: 4d18c3ca-11fa-4679-ac1d-976c0bc70a0d
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: b1cbd856-bb1d-4f2d-9c80-986cac58c5ff
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: b1cbd856-bb1d-4f2d-9c80-986cac58c5ff
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: b1cbd856-bb1d-4f2d-9c80-986cac58c5ff
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 3|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  name: 2|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -51,3 +30,24 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇹🇼台湾 01 | 1x TW
+  password: 81546d63-4ac2-4207-8477-80ae74594be2
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇹🇼台湾 02 | 1x TW
+  password: 81546d63-4ac2-4207-8477-80ae74594be2
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇹🇼台湾 03 | 1x TW
+  password: 81546d63-4ac2-4207-8477-80ae74594be2
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
