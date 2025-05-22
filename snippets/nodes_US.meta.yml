@@ -1,23 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: e6cfc1b6-82e5-4759-b165-34213926f97a
+  password: 88e0c986-c9be-4d22-9bf8-6298ceb1683d
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: e6cfc1b6-82e5-4759-b165-34213926f97a
+  password: 88e0c986-c9be-4d22-9bf8-6298ceb1683d
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: e6cfc1b6-82e5-4759-b165-34213926f97a
+  password: 88e0c986-c9be-4d22-9bf8-6298ceb1683d
   port: 31215
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 44f3599e-9110-4e89-9d84-98d9507074ff
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 44f3599e-9110-4e89-9d84-98d9507074ff
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 44f3599e-9110-4e89-9d84-98d9507074ff
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -1335,14 +1356,6 @@ proxies:
   sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 12|🇺🇸美国2 | ⬇️ 10.7MB/s|47%|Netfli...
-  password: dongtaiwang.com
-  port: 57773
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
 - name: '12|Channel id: @ShadowProxy66🇺🇸'
   password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
   port: 3234
@@ -1372,6 +1385,14 @@ proxies:
   server: 107.175.32.131
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 12|🇺🇸美国2 | ⬇️ 10.7MB/s|47%|Netfli...
+  password: dongtaiwang.com
+  port: 57773
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
   tls: false
   type: hysteria2
 - name: '12|Channel id: @ShadowProxy66🇺🇸 #4'
