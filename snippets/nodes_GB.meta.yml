@@ -1,33 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: bcc11953-6299-4edb-b842-b8a2d35e5e7a
+  password: 278af345-607f-4765-9f98-a8c308922ea7
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: bcc11953-6299-4edb-b842-b8a2d35e5e7a
+  password: 278af345-607f-4765-9f98-a8c308922ea7
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: d21f8b84-6784-4e7c-a3a0-8fd75715ffaf
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: d21f8b84-6784-4e7c-a3a0-8fd75715ffaf
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 15|GB_speednode_0068
+- name: 14|GB_speednode_0068
   network: ws
   port: 8880
   server: 109.176.239.29
@@ -41,7 +27,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|GB_speednode_0069
+- name: 14|GB_speednode_0069
   network: ws
   port: 8880
   server: 25.129.196.29
@@ -55,7 +41,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|GB_speednode_0070
+- name: 14|GB_speednode_0070
   network: ws
   port: 8880
   server: 80.93.202.29
@@ -69,7 +55,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|GB_speednode_0071
+- name: 14|GB_speednode_0071
   network: ws
   port: 8880
   server: 25.26.27.29
@@ -83,7 +69,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|GB_speednode_0072
+- name: 14|GB_speednode_0072
   network: ws
   port: 8880
   server: 25.129.197.29
@@ -97,7 +83,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|GB_speednode_0073
+- name: 14|GB_speednode_0073
   network: ws
   port: 8880
   server: 25.129.198.29
@@ -111,7 +97,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|GB_speednode_0074
+- name: 14|GB_speednode_0074
   network: ws
   port: 8880
   server: 94.247.142.29
@@ -125,7 +111,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|GB_speednode_0075
+- name: 14|GB_speednode_0075
   network: ws
   port: 8880
   server: 194.36.55.29
@@ -139,7 +125,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|GB_speednode_0076
+- name: 14|GB_speednode_0076
   network: ws
   port: 8880
   server: 25.25.25.29
@@ -153,7 +139,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|GB_speednode_0077
+- name: 14|GB_speednode_0077
   network: ws
   port: 8880
   server: 25.129.199.29
@@ -167,3 +153,17 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港 01 | 1x HK
+  password: 8026d866-c83e-4da7-8359-ea4408584ea3
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 8026d866-c83e-4da7-8359-ea4408584ea3
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
