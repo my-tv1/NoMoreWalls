@@ -1,35 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 6919d3c0-48d3-42b5-b5ee-9f397731ac3f
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 6919d3c0-48d3-42b5-b5ee-9f397731ac3f
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 7de2ef87-a76f-4d52-afbe-babb89b8a44b
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: be3ef342-b2c6-4129-974f-ee524a719d83
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 7de2ef87-a76f-4d52-afbe-babb89b8a44b
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: be3ef342-b2c6-4129-974f-ee524a719d83
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -41,6 +27,20 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇭🇰 香港 02 | 1x HK
+  password: 1575cfc3-72a3-4ddd-a005-ee1463a38348
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 1575cfc3-72a3-4ddd-a005-ee1463a38348
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 13|🇭🇰 香港|@ripaojiedian
@@ -61,7 +61,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 57530
+  port: 50197
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -115,30 +115,22 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 13|🇭🇰 香港8|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|香港9|@ripaojiedian
+  name: 13,14|香港8|@ripaojiedian
   network: ws
-  port: '8080'
-  server: 0986fcca-swq1s0-swsmkh-1s0a7.hgc1.tcpbbr.net
-  servername: ''
+  port: '443'
+  server: n1735525473.afjian.cn
+  servername: n1735525473.afjian.cn
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
+  uuid: e99a79a4-88d3-4e31-bc1f-ec7caba3531b
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: n1735525473.afjian.cn
     path: /
 - alterId: 64
   cipher: auto

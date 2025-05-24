@@ -1,26 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 6919d3c0-48d3-42b5-b5ee-9f397731ac3f
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 7de2ef87-a76f-4d52-afbe-babb89b8a44b
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: be3ef342-b2c6-4129-974f-ee524a719d83
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 7de2ef87-a76f-4d52-afbe-babb89b8a44b
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: be3ef342-b2c6-4129-974f-ee524a719d83
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 3|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
+- name: 2|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 216.116.134.20
@@ -35,15 +28,13 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3,13|🇰🇷 韩国|@ripaojiedian
+  name: 2|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
-  tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 3|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
+  name: 2|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 212.183.88.20
@@ -54,6 +45,13 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇰🇷 韩国 01 | 1x KR
+  password: 1575cfc3-72a3-4ddd-a005-ee1463a38348
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 12|🇰🇷韩国11 | ⬇️ 13.6MB/s|62%|Disne...
   password: d62993f2-f2b7-410d-b56d-2cef2e971038
   port: 35000
@@ -70,3 +68,11 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ@@
+  port: 11389
+  server: p231.panda004.net
+  tfo: false
+  type: ss
