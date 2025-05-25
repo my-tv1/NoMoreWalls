@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 15|🇷🇺俄罗斯 01 | 1x RU
-  password: 0793993d-4a55-47bd-b7d9-a68f7fba92f0
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: 4d6ae6d7-3749-4f07-abe8-9576ab7a3dba
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
