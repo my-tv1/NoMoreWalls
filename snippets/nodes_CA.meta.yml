@@ -1,16 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 60e0d5ea-2288-4e5a-88f5-f45921e9f12c
+  name: 0|🇨🇦 加拿大 01 官网：qx77xr.allbluess....
+  password: df96b8fd-5d06-4f4f-a89e-b0c386c1fa3b
   port: 36441
-  server: free.2weradf.xyz
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 101 | 1x CA
-  password: 3da044fe-2bdb-4d36-8b3f-17169fd02813
+  name: 1|🇨🇦加拿大 101 官网：ur3f1y.mikasass.p...
+  password: 63c266ea-0904-4c3e-a592-a6d08c334746
   port: 31441
-  server: free.2apzhfa.xyz
+  server: freem.vidalith.com
   type: ss
   udp: true
 - name: '12|Channel id: @ShadowProxy66🇨🇦'

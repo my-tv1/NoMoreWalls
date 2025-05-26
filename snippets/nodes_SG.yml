@@ -1,37 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 60e0d5ea-2288-4e5a-88f5-f45921e9f12c
+  name: 0|🇸🇬 新加坡 01 官网：d2swgr.abclouds1....
+  password: df96b8fd-5d06-4f4f-a89e-b0c386c1fa3b
   port: 36171
-  server: free.2weradf.xyz
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 60e0d5ea-2288-4e5a-88f5-f45921e9f12c
+  name: 0|🇸🇬 新加坡 02 官网：ag8iyw.abclouds1....
+  password: df96b8fd-5d06-4f4f-a89e-b0c386c1fa3b
   port: 36173
-  server: free.2weradf.xyz
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 101 | 1x SG
-  password: 3da044fe-2bdb-4d36-8b3f-17169fd02813
+  name: 1|🇸🇬新加坡 101 官网：4t0fhc.mikasass01...
+  password: 63c266ea-0904-4c3e-a592-a6d08c334746
   port: 31171
-  server: free.2apzhfa.xyz
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 102 | 1x SG
-  password: 3da044fe-2bdb-4d36-8b3f-17169fd02813
+  name: 1|🇸🇬新加坡 102 官网：3yh10k.mccloudb6....
+  password: 63c266ea-0904-4c3e-a592-a6d08c334746
   port: 31173
-  server: free.2apzhfa.xyz
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 103 | 1x SG
-  password: 3da044fe-2bdb-4d36-8b3f-17169fd02813
+  name: 1|🇸🇬新加坡 103 官网：qmk0xo.mikasass01...
+  password: 63c266ea-0904-4c3e-a592-a6d08c334746
   port: 31175
-  server: free.2apzhfa.xyz
+  server: freem.vidalith.com
   type: ss
   udp: true
 - alterId: 64
