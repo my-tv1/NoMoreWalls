@@ -1,26 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 官网：xgg05e.allbluess.c...
-  password: df96b8fd-5d06-4f4f-a89e-b0c386c1fa3b
-  port: 36311
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 101 官网：jiy2l5.mccloudb6.p...
-  password: 63c266ea-0904-4c3e-a592-a6d08c334746
+  name: 0|🇰🇷韩国 101 官网：https://dzgcng.m5c...
+  password: f9375d45-60f6-482c-97a5-6b18f586449e
   port: 31311
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 102 官网：hrhptm.mikasass.pr...
-  password: 63c266ea-0904-4c3e-a592-a6d08c334746
+  name: 0|🇰🇷韩国 102 官网：https://米卡莎.xyz
+  password: f9375d45-60f6-482c-97a5-6b18f586449e
   port: 31313
   server: freem.vidalith.com
   type: ss
   udp: true
-- name: 3|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
+- name: 2|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 216.116.134.20
@@ -35,13 +28,13 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - cipher: aes-256-cfb
-  name: 3|🇰🇷2 |  1.5MB/s|44%|Openai
+  name: 2|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   type: ss
 - client-fingerprint: chrome
-  name: 3|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
+  name: 2|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 212.183.88.20
@@ -52,6 +45,13 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇰🇷 韩国 101 官网：https://prp5eo.a5...
+  password: 8881a500-d3b0-439b-907a-aa9412271a47
+  port: 36311
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - name: 12|🇰🇷韩国11 | ⬇️ 13.6MB/s|62%|Disne...
   password: d62993f2-f2b7-410d-b56d-2cef2e971038
   port: 35000
