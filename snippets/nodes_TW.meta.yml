@@ -1,48 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 101 官网：https://68qehk.m5c...
-  password: 85443603-b709-4f3c-be62-fdcd14f1ceb4
-  port: 31241
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 102 官网：https://米卡莎.xyz
-  password: 85443603-b709-4f3c-be62-fdcd14f1ceb4
-  port: 31243
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 103 官网：https://米卡莎.xyz
-  password: 85443603-b709-4f3c-be62-fdcd14f1ceb4
-  port: 31245
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 101 官网：https://6usc14.a5...
-  password: 3bb5c27a-29ef-459c-bf2a-cec7ab0b9d6e
+  name: 0|8🇹🇼台湾|官网：a5b3cloud.pro
+  password: fb1bf5b9-4fee-4243-86c3-0c83db0de775
   port: 36241
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 102 官网：https://8px9ui.a5...
-  password: 3bb5c27a-29ef-459c-bf2a-cec7ab0b9d6e
+  name: 0|9🇹🇼台湾|官网：a5b3cloud.pro
+  password: fb1bf5b9-4fee-4243-86c3-0c83db0de775
   port: 36243
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 103 官网：https://0lq7if.a5...
-  password: 3bb5c27a-29ef-459c-bf2a-cec7ab0b9d6e
+  name: 0|10🇹🇼台湾|官网：abluecloud.xyz
+  password: fb1bf5b9-4fee-4243-86c3-0c83db0de775
   port: 36245
   server: freea.glyphara.com
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 3|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  name: 2|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -51,3 +30,24 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: 3|7🇹🇼台湾|官网：米卡莎.xyz
+  password: d611f04a-080d-4416-84b9-6621e76adf2a
+  port: 31241
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|8🇹🇼台湾|官网：m5c3cloud.pro
+  password: d611f04a-080d-4416-84b9-6621e76adf2a
+  port: 31243
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|9🇹🇼台湾|官网：mikasacloud.site
+  password: d611f04a-080d-4416-84b9-6621e76adf2a
+  port: 31245
+  server: freem.vidalith.com
+  type: ss
+  udp: true
