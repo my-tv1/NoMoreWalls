@@ -1,21 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|6🇭🇰香港|官网：蓝色海洋.xyz
-  password: 54144e44-c82e-4153-9ee3-581204b8300c
+  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
-  password: 54144e44-c82e-4153-9ee3-581204b8300c
+  name: 0|7🇭🇰香港住宅IP|官网：abluecloud.xyz
+  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
   port: 36145
   server: freea.glyphara.com
   type: ss
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|5🇭🇰香港02|官网：米卡莎.xyz
+  port: 21142
+  reality-opts:
+    public-key: pY5FK170vjGtKx5yg-zafR4TUuZ734GGSnHZlTcznDA
+    short-id: 9f7f27b7
+  server: freem.vidalith.com
+  servername: learn.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8830198-0633-42b1-9cd4-5a734799956f
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 1|6🇭🇰香港03|官网：mikasacloud.site
+  port: 21143
+  reality-opts:
+    public-key: pY5FK170vjGtKx5yg-zafR4TUuZ734GGSnHZlTcznDA
+    short-id: 9f7f27b7
+  server: freem.vidalith.com
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8830198-0633-42b1-9cd4-5a734799956f
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -27,20 +55,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 3|5🇭🇰香港|官网：m5c3cloud.pro
-  password: ff0147c5-41cc-45af-b830-dfc35dde1fee
-  port: 31143
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3|6🇭🇰香港家宽|官网：m5c3cloud.pro
-  password: ff0147c5-41cc-45af-b830-dfc35dde1fee
-  port: 31145
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - name: '12|Channel id: @ShadowProxy66🇭🇰'
   password: NTA0MDg5OjEzMzI4ODo3YjA2ZDIyYThhN2M3NjRm
   port: 3074
@@ -198,31 +212,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 15|HK_speednode_0145
-  network: ws
-  port: 8880
-  server: 154.218.15.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|HK_speednode_0146
-  network: ws
-  port: 8880
-  server: 154.211.8.20
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
