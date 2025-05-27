@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|30🇷🇺俄罗斯|官网：abluecloud.xyz
-  password: 61e328e0-fc67-4462-a79b-5660926adc9e
+  name: 0|30🇷🇺俄罗斯|官网：a5b3cloud.pro
+  password: 9e93381d-e8b6-41e5-a9bd-ea50c3bdcc45
   port: 36511
   server: freea.glyphara.com
   type: ss
@@ -38,21 +38,7 @@ proxies:
   sni: dxobg4azmk.gafnode.sbs
   tls: false
   type: hysteria2
-- name: 14|RU_speednode_0146
-  network: ws
-  port: 8880
-  server: 46.254.92.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0147
+- name: 14|RU_speednode_0116
   network: ws
   port: 8880
   server: 5.182.84.20
@@ -66,121 +52,9 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0148
-  network: ws
-  port: 8880
-  server: 185.221.160.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0149
-  network: ws
-  port: 8880
-  server: 185.59.218.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0150
-  network: ws
-  port: 8880
-  server: 77.232.140.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0151
-  network: ws
-  port: 8880
-  server: 45.8.211.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0152
-  network: ws
-  port: 8880
-  server: 185.174.138.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0153
-  network: ws
-  port: 8880
-  server: 45.67.215.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0154
-  network: ws
-  port: 8880
-  server: 5.182.85.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0155
-  network: ws
-  port: 8880
-  server: 5.182.85.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 15|34🇷🇺俄罗斯|官网：m5c3cloud.pro
-  password: 94cb71fe-080b-4cb7-b4f0-2794fc0dba7c
+  name: 15|34🇷🇺俄罗斯|官网：mikasacloud.site
+  password: 0d7b1d70-8c36-4ea2-ac78-f62e2e8737e3
   port: 31511
   server: freem.vidalith.com
   type: ss
