@@ -1,7 +1,21 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|6🇭🇰香港|官网：蓝色海洋.xyz
+  password: c4555970-4532-46d5-8709-261edc31cfe8
+  port: 36143
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
+  password: c4555970-4532-46d5-8709-261edc31cfe8
+  port: 36145
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -13,20 +27,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|6🇭🇰香港|官网：abluecloud.xyz
-  password: c3c9108a-2f42-4a9b-8480-7e68b8987c6b
-  port: 36143
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|7🇭🇰香港住宅IP|官网：abluecloud.xyz
-  password: c3c9108a-2f42-4a9b-8480-7e68b8987c6b
-  port: 36145
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
@@ -159,22 +159,22 @@ proxies:
   type: vmess
   uuid: 16e7adc5-8a1e-44b1-8327-14f7367caaf8
 - cipher: chacha20-ietf-poly1305
-  name: 15|6🇭🇰香港|官网：m5c3cloud.pro
-  password: 01e49dc6-82fa-4097-9051-6a001dc91c8b
+  name: 15|6🇭🇰香港|官网：米卡莎.xyz
+  password: fc2739f6-72d0-483e-8f6f-1a169e7c596d
   port: 31141
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 15|7🇭🇰香港|官网：m5c3cloud.pro
-  password: 01e49dc6-82fa-4097-9051-6a001dc91c8b
+  name: 15|7🇭🇰香港|官网：mikasacloud.site
+  password: fc2739f6-72d0-483e-8f6f-1a169e7c596d
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 15|8🇭🇰香港家宽|官网：m5c3cloud.pro
-  password: 01e49dc6-82fa-4097-9051-6a001dc91c8b
+  name: 15|8🇭🇰香港家宽|官网：米卡莎.xyz
+  password: fc2739f6-72d0-483e-8f6f-1a169e7c596d
   port: 31145
   server: freem.vidalith.com
   type: ss
