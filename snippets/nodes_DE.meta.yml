@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|32🇩🇪德国|官网：m5c3cloud.pro
-  password: 43b729f5-eb30-4fff-96a7-17a40e4b4a81
+  name: 0|32🇩🇪德国|官网：mikasacloud.site
+  password: 8e4d6ed2-4d40-4e00-ac64-2a187a0216ab
   port: 31471
   server: freem.vidalith.com
   type: ss
@@ -719,8 +719,8 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 15|29🇩🇪德国|官网：a5b3cloud.pro
-  password: 437f4e66-134e-4470-827a-230825febbe5
+  name: 15|29🇩🇪德国|官网：蓝色海洋.xyz
+  password: 88cfa70f-d57e-4e63-9ff9-b7317a59939f
   port: 36471
   server: freea.glyphara.com
   type: ss
