@@ -1,7 +1,21 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|3🇭🇰香港01|官网：mikasacloud.site
+  port: 21141
+  reality-opts:
+    public-key: Eups6Prbvg15cmO6xyumiyHSDnXyxdPpHot__djonlo
+    short-id: ef355cf1
+  server: freem.vidalith.com
+  servername: learn.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43b729f5-eb30-4fff-96a7-17a40e4b4a81
 - cipher: chacha20-ietf-poly1305
   name: 0|24🇬🇧英国家宽|官网：mikasacloud.site
-  password: 0f2a0cbf-e0b8-4c8e-8420-632d11bfe6c5
+  password: 43b729f5-eb30-4fff-96a7-17a40e4b4a81
   port: 31271
   server: freem.vidalith.com
   type: ss
@@ -846,15 +860,8 @@ proxies:
       Host: sk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 15|5🇭🇰香港|官网：abluecloud.xyz
-  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
-  port: 36141
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 15|21🇬🇧英国住宅IP|官网：蓝色海洋.xyz
-  password: 98d10f50-0842-434c-a42c-8a585d2ca3c0
+  name: 15|21🇬🇧英国住宅IP|官网：a5b3cloud.pro
+  password: 437f4e66-134e-4470-827a-230825febbe5
   port: 36271
   server: freea.glyphara.com
   type: ss
