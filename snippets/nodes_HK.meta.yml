@@ -1,77 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|6🇭🇰香港|官网：abluecloud.xyz
-  password: 88c4e1b0-a827-4270-b315-15b75e801ebe
+  name: 0|6🇭🇰香港|官网：蓝色海洋.xyz
+  password: 87e3284c-e16d-4439-9a13-247ccf1914b7
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|7🇭🇰香港住宅IP|官网：蓝色海洋.xyz
-  password: 88c4e1b0-a827-4270-b315-15b75e801ebe
+  name: 0|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
+  password: 87e3284c-e16d-4439-9a13-247ccf1914b7
   port: 36145
   server: freea.glyphara.com
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|4🇭🇰香港01|官网：m5c3cloud.pro
-  port: 21141
-  reality-opts:
-    public-key: Eups6Prbvg15cmO6xyumiyHSDnXyxdPpHot__djonlo
-    short-id: ef355cf1
-  server: freem.vidalith.com
-  servername: learn.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f9407087-cd68-42cf-8c34-a7d89025dcd1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|5🇭🇰香港02|官网：米卡莎.xyz
-  port: 21143
-  reality-opts:
-    public-key: Aefu3IA6fk1vUQio476AwY4NSshxmjjEpeWrvaqAtWg
-    short-id: f9d7069c
-  server: freem.vidalith.com
-  servername: learn.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f9407087-cd68-42cf-8c34-a7d89025dcd1
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 1|6🇭🇰香港03|官网：mikasacloud.site
-  port: 21145
-  reality-opts:
-    public-key: _5oMsSEfgBhN4ZMasEwrUqss5GQkKdAtgoH2MzEVRA0
-    short-id: 66c3d76e
-  server: freem.vidalith.com
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f9407087-cd68-42cf-8c34-a7d89025dcd1
-- cipher: chacha20-ietf-poly1305
-  name: 1|8🇭🇰香港|官网：米卡莎.xyz
-  password: f9407087-cd68-42cf-8c34-a7d89025dcd1
-  port: 31143
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|9🇭🇰香港家宽|官网：mikasacloud.site
-  password: f9407087-cd68-42cf-8c34-a7d89025dcd1
-  port: 31145
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -83,14 +27,14 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: '12|Channel id: @ShadowProxy66🇭🇰'
+- name: '11|Channel id: @ShadowProxy66🇭🇰'
   password: NTA0MDg5OjEzMzI4ODo3YjA2ZDIyYThhN2M3NjRm
   port: 3074
   server: 47.76.232.205
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '12|Channel id: @ShadowProxy66🇭🇰 #1'
+- name: '11|Channel id: @ShadowProxy66🇭🇰 #1'
   password: 53bdfd4a-7f38-4cb6-b07e-49974de1a800
   port: 22106
   server: 160.22.156.7
@@ -100,7 +44,7 @@ proxies:
   type: hysteria2
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 13|🇭🇰 香港|@ripaojiedian
+  name: 12|🇭🇰 香港|@ripaojiedian
   password: ENYGONDU94UW1G6X
   port: 15010
   server: 8tv68qhq.slashdevslashnetslashtun.net
@@ -108,7 +52,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 13|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: 91a41f4e02dc
   plugin: v2ray-plugin
   plugin-opts:
@@ -124,14 +68,14 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 13|🇭🇰 香港9|@ripaojiedian
+  name: 12|🇭🇰 香港9|@ripaojiedian
   password: 4KGHWKCKQAJOVPHO
   port: 15003
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 13,14|香港4|@ripaojiedian
+  name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
   port: 443
@@ -142,7 +86,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 13|🇭🇰 香港5|@ripaojiedian
+  name: 12|🇭🇰 香港5|@ripaojiedian
   port: 52182
   server: 120.232.153.40
   skip-cert-verify: false
@@ -153,7 +97,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|香港7|@ripaojiedian
+  name: 12,13|香港7|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -170,7 +114,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13|🇭🇰 香港8|@ripaojiedian
+  name: 12|🇭🇰 香港8|@ripaojiedian
   port: 47010
   server: 43.247.134.85
   skip-cert-verify: false
@@ -180,7 +124,7 @@ proxies:
   uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3
 - alterId: 64
   cipher: auto
-  name: 14|香港5|@ripaojiedian
+  name: 13|香港5|@ripaojiedian
   network: tcp
   port: '52182'
   server: 120.232.153.40
@@ -190,7 +134,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 14|香港8|@ripaojiedian
+  name: 13|香港8|@ripaojiedian
   network: tcp
   port: '47010'
   server: 43.247.134.85
@@ -198,3 +142,59 @@ proxies:
   tls: false
   type: vmess
   uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|4🇭🇰香港01|官网：mikasacloud.site
+  port: 21141
+  reality-opts:
+    public-key: Eups6Prbvg15cmO6xyumiyHSDnXyxdPpHot__djonlo
+    short-id: ef355cf1
+  server: freem.vidalith.com
+  servername: learn.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83e2fd0d-4471-486b-b297-721ddabd1f3e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|5🇭🇰香港02|官网：米卡莎.xyz
+  port: 21143
+  reality-opts:
+    public-key: Aefu3IA6fk1vUQio476AwY4NSshxmjjEpeWrvaqAtWg
+    short-id: f9d7069c
+  server: freem.vidalith.com
+  servername: learn.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83e2fd0d-4471-486b-b297-721ddabd1f3e
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 15|6🇭🇰香港03|官网：米卡莎.xyz
+  port: 21145
+  reality-opts:
+    public-key: _5oMsSEfgBhN4ZMasEwrUqss5GQkKdAtgoH2MzEVRA0
+    short-id: 66c3d76e
+  server: freem.vidalith.com
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83e2fd0d-4471-486b-b297-721ddabd1f3e
+- cipher: chacha20-ietf-poly1305
+  name: 15|8🇭🇰香港|官网：m5c3cloud.pro
+  password: 83e2fd0d-4471-486b-b297-721ddabd1f3e
+  port: 31143
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 15|9🇭🇰香港家宽|官网：m5c3cloud.pro
+  password: 83e2fd0d-4471-486b-b297-721ddabd1f3e
+  port: 31145
+  server: freem.vidalith.com
+  type: ss
+  udp: true
