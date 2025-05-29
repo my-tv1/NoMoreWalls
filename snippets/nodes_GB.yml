@@ -1,5 +1,12 @@
 proxies:
-- name: 15|GB_speednode_0235
+- cipher: chacha20-ietf-poly1305
+  name: 2|21🇬🇧英国住宅IP|官网：abluecloud.xyz
+  password: aafbad4b-d544-4e76-9312-1bd19f2350bc
+  port: 36271
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- name: 14|GB_speednode_0235
   network: ws
   password: trojan
   port: 443
@@ -12,3 +19,10 @@ proxies:
     headers:
       Host: wahaha.yingyangkuaixian.dpdns.org
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 15|24🇬🇧英国家宽|官网：米卡莎.xyz
+  password: 2e7844b6-337b-47ce-89b7-444cd5d35dfc
+  port: 31271
+  server: freem.vidalith.com
+  type: ss
+  udp: true
