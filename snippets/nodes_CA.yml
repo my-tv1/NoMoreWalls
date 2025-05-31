@@ -1,8 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 3|27🇨🇦加拿大|官网：蓝色海洋.xyz
-  password: ba6bbd35-0685-4f01-a974-1330e9e6b403
-  port: 36441
-  server: freea.glyphara.com
-  type: ss
-  udp: true
+proxies: []
