@@ -1,14 +1,8 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: vmess-grpc
-  name: 3|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-  network: grpc
-  port: 443
-  server: de.vmess.comnpmjs.com
-  servername: de.vmess.comnpmjs.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+- cipher: chacha20-ietf-poly1305
+  name: 3|28🇩🇪德国|官网：a5b3cloud.pro
+  password: ba6bbd35-0685-4f01-a974-1330e9e6b403
+  port: 36471
+  server: freea.glyphara.com
+  type: ss
+  udp: true
