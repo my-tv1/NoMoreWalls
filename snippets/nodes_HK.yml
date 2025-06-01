@@ -1,35 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|6🇭🇰香港|官网：a5b3cloud.pro
-  password: 2f049a7c-5a79-464d-bac0-034d05863538
+  name: 0|6🇭🇰香港|官网：蓝色海洋.xyz
+  password: 9d7765ea-7faa-492a-8c38-f95cbe872541
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|7🇭🇰香港住宅IP|官网：abluecloud.xyz
-  password: 2f049a7c-5a79-464d-bac0-034d05863538
+  name: 0|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
+  password: 9d7765ea-7faa-492a-8c38-f95cbe872541
   port: 36145
   server: freea.glyphara.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|5🇭🇰香港|官网：mikasacloud.site
-  password: d6b871cf-c473-4bf7-9879-931adc5c09e1
-  port: 31143
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|6🇭🇰香港家宽|官网：m5c3cloud.pro
-  password: d6b871cf-c473-4bf7-9879-931adc5c09e1
-  port: 31145
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -41,6 +27,20 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 3|5🇭🇰香港|官网：m5c3cloud.pro
+  password: 1c2901c7-72ed-48c9-a6b2-dfab2161c1df
+  port: 31143
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|6🇭🇰香港家宽|官网：mikasacloud.site
+  password: 1c2901c7-72ed-48c9-a6b2-dfab2161c1df
+  port: 31145
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 13|🇭🇰 香港|@ripaojiedian
@@ -61,14 +61,14 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 36368
+  port: 34566
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 13|🇭🇰 香港3|@ripaojiedian
+  name: 13|🇸🇬 新加坡2|@ripaojiedian
   port: 49302
   server: 183.236.51.38
   skip-cert-verify: false
@@ -113,20 +113,20 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 13|🇭🇰 香港9|@ripaojiedian
-  port: 15229
-  server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
+  port: 31209
+  server: 120.232.153.40
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 14|香港3|@ripaojiedian
+  name: 14|新加坡2|@ripaojiedian
   network: tcp
   port: '49302'
   server: 183.236.51.38
@@ -144,16 +144,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
   name: 14|香港9|@ripaojiedian
   network: tcp
-  port: '15229'
-  server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
+  port: '31209'
+  server: 120.232.153.40
   servername: ''
   tls: false
   type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 15|HK_speednode_0054
   network: ws
   password: Aimer
