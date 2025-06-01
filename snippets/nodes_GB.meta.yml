@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|5🇭🇰香港|官网：蓝色海洋.xyz
-  password: 9d7765ea-7faa-492a-8c38-f95cbe872541
-  port: 36141
-  server: freea.glyphara.com
+  name: 1|4🇭🇰香港|官网：米卡莎.xyz
+  password: 6a29d254-1942-4a63-8f09-7129691aaf34
+  port: 31141
+  server: freem.vidalith.com
   type: ss
   udp: true
 - name: 15|GB_speednode_0037
