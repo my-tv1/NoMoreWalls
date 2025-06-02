@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 2|5🇭🇰香港|官网：a5b3cloud.pro
+  password: 00689801-acd4-4cf3-b15d-2660b2dc9203
+  port: 36141
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - name: 14|GB_speednode_0070
   network: ws
   port: 8880
@@ -190,9 +197,9 @@ proxies:
       Host: us.laoyoutiao.link
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 15|5🇭🇰香港|官网：蓝色海洋.xyz
-  password: 150da145-5978-4ae3-9975-b21e6b1e385c
-  port: 36141
-  server: freea.glyphara.com
+  name: 15|4🇭🇰香港|官网：m5c3cloud.pro
+  password: 51bbaa29-023b-43ba-bf0d-c89f74b08997
+  port: 31141
+  server: freem.vidalith.com
   type: ss
   udp: true
