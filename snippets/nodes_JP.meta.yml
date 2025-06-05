@@ -1,28 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：abluecloud.xyz
-  password: 7f7b91e3-8804-4fde-9d2f-f9b5108d05ee
+  name: 0|11🇯🇵日本|官网：a5b3cloud.pro
+  password: 20e91757-d9ca-4fc5-b654-ec08ad7aa81a
   port: 36111
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|12🇯🇵日本|官网：a5b3cloud.pro
-  password: 7f7b91e3-8804-4fde-9d2f-f9b5108d05ee
+  password: 20e91757-d9ca-4fc5-b654-ec08ad7aa81a
   port: 36113
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|13🇯🇵日本|官网：abluecloud.xyz
-  password: 7f7b91e3-8804-4fde-9d2f-f9b5108d05ee
+  name: 0|13🇯🇵日本|官网：蓝色海洋.xyz
+  password: 20e91757-d9ca-4fc5-b654-ec08ad7aa81a
   port: 36115
   server: freea.glyphara.com
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|10🇯🇵日本|官网：m5c3cloud.pro
+  password: c93d433d-6570-4dca-9413-36b1581834d6
+  port: 31111
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|11🇯🇵日本|官网：mikasacloud.site
+  password: c93d433d-6570-4dca-9413-36b1581834d6
+  port: 31113
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|12🇯🇵日本|官网：mikasacloud.site
+  password: c93d433d-6570-4dca-9413-36b1581834d6
+  port: 31115
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
-  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -36,27 +57,6 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- cipher: chacha20-ietf-poly1305
-  name: 3|10🇯🇵日本|官网：m5c3cloud.pro
-  password: b3be2b1d-efe9-48ab-9a74-1a9a01a3ccfa
-  port: 31111
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3|11🇯🇵日本|官网：m5c3cloud.pro
-  password: b3be2b1d-efe9-48ab-9a74-1a9a01a3ccfa
-  port: 31113
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3|12🇯🇵日本|官网：m5c3cloud.pro
-  password: b3be2b1d-efe9-48ab-9a74-1a9a01a3ccfa
-  port: 31115
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - name: '12|Channel id: @ShadowProxy66🇯🇵'
   password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
   port: 443
