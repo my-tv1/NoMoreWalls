@@ -1,37 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|13🇸🇬新加坡|官网：m5c3cloud.pro
-  password: 59c5abb2-2379-45f3-bdc2-b133abfd756d
-  port: 31171
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|14🇸🇬新加坡|官网：米卡莎.xyz
-  password: 59c5abb2-2379-45f3-bdc2-b133abfd756d
-  port: 31173
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|15🇸🇬新加坡|官网：米卡莎.xyz
-  password: 59c5abb2-2379-45f3-bdc2-b133abfd756d
-  port: 31175
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|14🇸🇬新加坡|官网：abluecloud.xyz
-  password: ae10b0ca-bd8b-4bdd-b24c-284533d303a6
+  name: 0|14🇸🇬新加坡|官网：abluecloud.xyz
+  password: f2b9fdd3-4123-4a7c-8ea6-5f7c739dde0d
   port: 36171
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|15🇸🇬新加坡|官网：abluecloud.xyz
-  password: ae10b0ca-bd8b-4bdd-b24c-284533d303a6
+  name: 0|15🇸🇬新加坡|官网：蓝色海洋.xyz
+  password: f2b9fdd3-4123-4a7c-8ea6-5f7c739dde0d
   port: 36173
   server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|13🇸🇬新加坡|官网：米卡莎.xyz
+  password: a88d0dec-d98c-4a7c-931b-6f0afe1702c4
+  port: 31171
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|14🇸🇬新加坡|官网：m5c3cloud.pro
+  password: a88d0dec-d98c-4a7c-931b-6f0afe1702c4
+  port: 31173
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|15🇸🇬新加坡|官网：mikasacloud.site
+  password: a88d0dec-d98c-4a7c-931b-6f0afe1702c4
+  port: 31175
+  server: freem.vidalith.com
   type: ss
   udp: true
 - alterId: 64
@@ -73,6 +73,14 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - name: '12|Channel id: @ShadowProxy66🇸🇬'
+  password: cdb63ff9-1767-4a35-97e5-900048e4feb2
+  port: 443
+  server: 104.192.92.99
+  skip-cert-verify: true
+  sni: tms.dingtalk.com
+  tls: false
+  type: hysteria2
+- name: '12|Channel id: @ShadowProxy66🇸🇬 #1'
   password: 53bdfd4a-7f38-4cb6-b07e-49974de1a800
   port: 25022
   server: 51.79.141.63
