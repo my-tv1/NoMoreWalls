@@ -174,15 +174,15 @@ proxies:
   udp: true
   username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
-  name: 15|6🇭🇰香港|官网：a5b3cloud.pro
-  password: ebcf1be2-9a10-4d8e-b33f-bbb006855e3e
+  name: 15|6🇭🇰香港|官网：abluecloud.xyz
+  password: 1d726345-7b59-43aa-b96e-a40def0eb5b5
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 15|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
-  password: ebcf1be2-9a10-4d8e-b33f-bbb006855e3e
+  password: 1d726345-7b59-43aa-b96e-a40def0eb5b5
   port: 36145
   server: freea.glyphara.com
   type: ss

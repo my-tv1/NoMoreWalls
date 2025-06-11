@@ -1625,21 +1625,21 @@ proxies:
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 15|18🇺🇸美国|官网：蓝色海洋.xyz
-  password: ebcf1be2-9a10-4d8e-b33f-bbb006855e3e
+  password: 1d726345-7b59-43aa-b96e-a40def0eb5b5
   port: 36211
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 15|19🇺🇸美国住宅IP|官网：蓝色海洋.xyz
-  password: ebcf1be2-9a10-4d8e-b33f-bbb006855e3e
+  name: 15|19🇺🇸美国住宅IP|官网：abluecloud.xyz
+  password: 1d726345-7b59-43aa-b96e-a40def0eb5b5
   port: 36213
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 15|20🇺🇸美国|官网：a5b3cloud.pro
-  password: ebcf1be2-9a10-4d8e-b33f-bbb006855e3e
+  name: 15|20🇺🇸美国|官网：abluecloud.xyz
+  password: 1d726345-7b59-43aa-b96e-a40def0eb5b5
   port: 36215
   server: freea.glyphara.com
   type: ss

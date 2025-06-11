@@ -72,21 +72,21 @@ proxies:
   uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
 - cipher: chacha20-ietf-poly1305
   name: 15|11🇯🇵日本|官网：蓝色海洋.xyz
-  password: ebcf1be2-9a10-4d8e-b33f-bbb006855e3e
+  password: 1d726345-7b59-43aa-b96e-a40def0eb5b5
   port: 36111
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 15|12🇯🇵日本|官网：蓝色海洋.xyz
-  password: ebcf1be2-9a10-4d8e-b33f-bbb006855e3e
+  password: 1d726345-7b59-43aa-b96e-a40def0eb5b5
   port: 36113
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 15|13🇯🇵日本|官网：蓝色海洋.xyz
-  password: ebcf1be2-9a10-4d8e-b33f-bbb006855e3e
+  password: 1d726345-7b59-43aa-b96e-a40def0eb5b5
   port: 36115
   server: freea.glyphara.com
   type: ss
