@@ -1,7 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 3|29🇷🇺俄罗斯|官网：蓝色海洋.xyz
-  password: b015d133-ec66-4bfe-b246-cad7f2aaf43b
+  name: 0|🇷🇺俄罗斯 101 | 1x RU
+  password: 96b75a54-81c1-4075-a87d-9033756bcdb0
+  port: 31511
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇷🇺 俄罗斯 101 | 1x RU
+  password: 8d642451-6870-4bcb-ba34-3598b6832c3c
   port: 36511
   server: freea.glyphara.com
   type: ss
