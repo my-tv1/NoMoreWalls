@@ -13,8 +13,22 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 3|6🇭🇰香港|官网：abluecloud.xyz
+  password: 129c900c-b832-40e9-9e7e-a7ed2ff9fd63
+  port: 36143
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
+  password: 129c900c-b832-40e9-9e7e-a7ed2ff9fd63
+  port: 36145
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 12,13,14|CN_speednode_0027
+  name: 13,14,15|CN_speednode_0027
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -25,22 +39,22 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港2|@ripaojiedian
-  password: 1450cecfb93f
+  name: 13|🇭🇰 香港2|@ripaojiedian
+  password: 08293b204707
   plugin: v2ray-plugin
   plugin-opts:
-    host: kh36v1.pmxiaonan.xyz
+    host: hk6v1.pmxiaonan.xyz
     mode: websocket
     mux: true
-    path: /simieepvt
+    path: /sclbvcgkp
     skip-cert-verify: false
     tls: true
-  port: 13231
-  server: 121.127.231.217
+  port: 41174
+  server: 156.251.179.79
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|香港3|@ripaojiedian
+  name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -49,7 +63,7 @@ proxies:
   sni: www.yrtok.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|香港4|@ripaojiedian
+  name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -60,7 +74,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港5|@ripaojiedian
+  name: 13|🇸🇬 新加坡3|@ripaojiedian
   port: 31209
   server: 120.232.153.40
   skip-cert-verify: false
@@ -71,7 +85,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|香港6|@ripaojiedian
+  name: 13,14|香港6|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -88,18 +102,18 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港7|@ripaojiedian
-  port: 38993
-  server: 103.224.80.89
+  name: 13|🇭🇰 香港7|@ripaojiedian
+  port: 20332
+  server: 43.247.135.2
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 6f8c6f30-c726-4916-8f72-04f020c5c12d
+  uuid: 8037ce00-c860-4213-b888-be5c7ed6ea48
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港8|@ripaojiedian
+  name: 13|🇭🇰 香港8|@ripaojiedian
   port: 33519
   server: 183.236.51.38
   skip-cert-verify: false
@@ -107,9 +121,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 13|🇭🇰 香港9|@ripaojiedian
+  password: rGDbiF7gtx5TWt4r4VjneQ==
+  port: 552
+  server: 156.225.22.213
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
-  name: 13|香港5|@ripaojiedian
+  name: 14|新加坡3|@ripaojiedian
   network: tcp
   port: '31209'
   server: 120.232.153.40
@@ -119,17 +141,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|香港7|@ripaojiedian
+  name: 14|香港7|@ripaojiedian
   network: tcp
-  port: '38993'
-  server: 103.224.80.89
+  port: '20332'
+  server: 43.247.135.2
   servername: ''
   tls: false
   type: vmess
-  uuid: 6f8c6f30-c726-4916-8f72-04f020c5c12d
+  uuid: 8037ce00-c860-4213-b888-be5c7ed6ea48
 - alterId: 64
   cipher: auto
-  name: 13|香港8|@ripaojiedian
+  name: 14|香港8|@ripaojiedian
   network: tcp
   port: '33519'
   server: 183.236.51.38
@@ -137,7 +159,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|HK_speednode_0050
+- name: 15|HK_speednode_0050
   network: ws
   port: 443
   server: 47.76.218.163
@@ -151,7 +173,7 @@ proxies:
     headers:
       Host: steep.skyfigure.top
     path: /Telegram @pgkj666 /?ed=2560
-- name: 14|HK_speednode_0051
+- name: 15|HK_speednode_0051
   network: ws
   port: 7656
   server: 46.149.203.202
@@ -165,7 +187,7 @@ proxies:
     headers:
       Host: steep.skyfigure.top
     path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 14|HK_speednode_0052
+- name: 15|HK_speednode_0052
   password: <password>
   port: 8443
   server: 85e272b6-sxe4g0-t1bnjq-1krtb.hkt.cdnhuawei.com
@@ -173,17 +195,3 @@ proxies:
   type: http
   udp: true
   username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  name: 15|6🇭🇰香港|官网：abluecloud.xyz
-  password: 1d726345-7b59-43aa-b96e-a40def0eb5b5
-  port: 36143
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 15|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
-  password: 1d726345-7b59-43aa-b96e-a40def0eb5b5
-  port: 36145
-  server: freea.glyphara.com
-  type: ss
-  udp: true
