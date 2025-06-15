@@ -1,14 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港 101 | 1x HK
-  password: 4a558767-b3cc-46b7-ae6f-e8a12d31ecf2
-  port: 36141
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇬🇧 英国 102 | 1x UK
-  password: 4a558767-b3cc-46b7-ae6f-e8a12d31ecf2
+  name: 0|🇬🇧 英国 102 | 1x UK
+  password: 9cf3e3e7-9d1c-4177-9d35-fbcaddecdbdf
   port: 36273
   server: freea.glyphara.com
   type: ss
