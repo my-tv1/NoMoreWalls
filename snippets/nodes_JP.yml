@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 101 | 1x JP
-  password: deabf14e-f096-42cf-9a27-6cab1bc21d13
+  password: 940104df-9787-4159-810a-4ded7cec2da7
   port: 36111
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 102 | 1x JP
-  password: deabf14e-f096-42cf-9a27-6cab1bc21d13
+  password: 940104df-9787-4159-810a-4ded7cec2da7
   port: 36113
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 103 | 1x JP
-  password: deabf14e-f096-42cf-9a27-6cab1bc21d13
+  password: 940104df-9787-4159-810a-4ded7cec2da7
   port: 36115
   server: freea.glyphara.com
   type: ss
