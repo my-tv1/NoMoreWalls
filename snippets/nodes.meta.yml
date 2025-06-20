@@ -1658,7 +1658,7 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: '10,12|Channel id: @ShadowProxy66🇫🇷 #1'
+- name: '10,12|Channel id: @ShadowProxy66🇫🇷'
   password: dongtaiwang.com
   port: 31180
   server: 51.159.111.32
@@ -1666,7 +1666,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: 11|🇱@ا ا
+- name: 11|ًں‡±ًں‡@ً‌—ً‌—ً‌—ً‌—ً‌—ًںط§ظ ظ...
   obfs: salamander
   obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM
   password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
@@ -1676,7 +1676,7 @@ proxies:
   sni: sinavm.sinavm.ir
   tls: false
   type: hysteria2
-- name: 11|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+- name: 11|ًں‡ًں‡@ً‌—¦ً‌—¶ً‌—،ً‌—”ً‌—©ً‌—...
   obfs: salamander
   obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM
   password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
