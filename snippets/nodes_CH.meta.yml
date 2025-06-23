@@ -1,16 +1,16 @@
 proxies:
 - client-fingerprint: chrome
-  name: 15|CH_speednode_0018
+  name: 13|CH_speednode_0023
   network: ws
   port: 8880
-  server: 185.18.250.251
+  server: 185.18.250.254
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
   ws-opts:
     headers:
-      Host: cf.d3z.net
+      Host: yg.bantony199.top
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
