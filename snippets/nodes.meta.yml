@@ -1819,7 +1819,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10,11|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️ #1'
+- name: '10,11|@meli_proxyy #4'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -2155,7 +2155,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 11|@vpnv2r4y️  یو️
+- name: '11|@meli_proxyy #1'
   password: 8418fb71-419d-4fc3-8b29-d7fee8de76c7
   port: 443
   server: 104.168.34.109
@@ -2171,7 +2171,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 11| @V2aryng_vpn کانی ان
+- name: 11| @V2aryng_vpn کان ان
   password: 924abf1e-375d-4918-8b20-1047ef3dbb57
   port: 10119
   server: kor.pddwdf.store
@@ -2334,7 +2334,7 @@ proxies:
   sni: marz.hideus.xyz
   tls: false
   type: hysteria2
-- name: 11|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️
+- name: '11|@meli_proxyy #2'
   password: be81e21d-02d8-4a60-a07e-c2202a50a549
   port: 26923
   server: yjjdhl.yunjijd.xyz
@@ -2350,7 +2350,7 @@ proxies:
   sni: hysteria.workers.dev
   tls: false
   type: hysteria2
-- name: 11|@v2rayngzendegimamad️
+- name: 11|@v2rayngzendegimamad
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
   server: 150.230.30.237
