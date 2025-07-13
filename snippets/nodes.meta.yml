@@ -1114,7 +1114,7 @@ proxies:
   tls: true
   type: socks5
 - auth: 5CBqBh6MeDq6GajcilBiDg==
-  name: '3,10,12|Channel id: @ShadowProxy66🇺🇸 #2'
+  name: '3,12|Channel id: @ShadowProxy66🇺🇸 #2'
   password: 5CBqBh6MeDq6GajcilBiDg==
   port: 61001
   server: 192.227.152.86
@@ -1658,20 +1658,12 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: 10|Telegram:@config_proxy 😍
-  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  port: 30300
-  server: 40.233.121.211
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 10|未命名
+- name: 10|🇯🇵日本
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
-  server: aws-linkhy2.liangxin1.xyz
+  server: aws-linkhy17.liangxin1.xyz
   skip-cert-verify: true
-  sni: www.tesla.cn
+  sni: www.apple.com.cn
   tls: false
   type: hysteria2
 - name: '10|未命名 #1'
@@ -1747,16 +1739,6 @@ proxies:
   server: 35.94.124.236
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '10,11|Telegram:@config_proxy '
-  obfs: salamander
-  obfs-password: Telegram-->@Ln2Ray
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: gavazn.lnmarketplace.net
-  skip-cert-verify: false
-  sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
 - name: 10|🇭🇰香港
@@ -2362,6 +2344,16 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: 11|@HIBYEVPNN
+  obfs: salamander
+  obfs-password: Telegram-->@Ln2Ray
+  password: Telegram-->@Ln2Ray
+  port: 45000
+  server: gavazn.lnmarketplace.net
+  skip-cert-verify: false
+  sni: gavazn.55994421.xyz
+  tls: false
+  type: hysteria2
 - name: 11|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
@@ -2391,7 +2383,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|  @vpns_land | کانال ما '
+- name: '11|کانال تلگرام : injastvpn@'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
