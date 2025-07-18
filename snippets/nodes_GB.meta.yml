@@ -1,12 +1,12 @@
 proxies:
-- name: '11|Channel id: @ShadowProxy66🇬🇧'
+- name: '12|Channel id: @ShadowProxy66🇬🇧'
   password: e48d6377dda26840
   port: 42353
   server: 185.184.70.120
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 14|GB_speednode_0016
+- name: 15|GB_speednode_0016
   network: ws
   port: 8880
   server: 194.36.55.213
@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /?ed=2560
-- name: 14|GB_speednode_0017
+- name: 15|GB_speednode_0017
   network: ws
   port: 8880
   server: 91.193.58.104
@@ -34,7 +34,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 14|GB_speednode_0018
+- name: 15|GB_speednode_0018
   network: ws
   port: 8880
   server: 91.193.58.43
@@ -48,7 +48,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 14|GB_speednode_0019
+- name: 15|GB_speednode_0019
   network: ws
   port: 8880
   server: 91.193.58.248
@@ -62,7 +62,7 @@ proxies:
     headers:
       Host: sk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3?ed=2048
-- name: 14|GB_speednode_0020
+- name: 15|GB_speednode_0020
   network: ws
   port: 8880
   server: 91.193.58.134
@@ -76,7 +76,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 14|GB_speednode_0021
+- name: 15|GB_speednode_0021
   network: ws
   port: 8880
   server: 25.129.198.213
@@ -90,7 +90,7 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /?ed=2560
-- name: 14|GB_speednode_0022
+- name: 15|GB_speednode_0022
   network: ws
   port: 8880
   server: 91.193.58.57
@@ -104,7 +104,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 14|GB_speednode_0023
+- name: 15|GB_speednode_0023
   network: ws
   port: 8880
   server: 91.193.58.245
@@ -118,7 +118,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 14|GB_speednode_0024
+- name: 15|GB_speednode_0024
   network: ws
   port: 8880
   server: 91.193.58.191
@@ -132,7 +132,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 14|GB_speednode_0025
+- name: 15|GB_speednode_0025
   network: ws
   port: 8880
   server: 91.193.58.225
@@ -146,7 +146,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 14|GB_speednode_0026
+- name: 15|GB_speednode_0026
   network: ws
   port: 8880
   server: 91.193.58.113
@@ -160,7 +160,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 14|GB_speednode_0027
+- name: 15|GB_speednode_0027
   network: ws
   port: 8880
   server: 91.193.58.149
@@ -174,7 +174,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 14|GB_speednode_0028
+- name: 15|GB_speednode_0028
   network: ws
   password: trojan
   port: 443
