@@ -1795,7 +1795,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '10,11,12|Channel id: @ShadowProxy66🇫🇷'
+- name: '10,12|Channel id: @ShadowProxy66🇫🇷'
   password: dongtaiwang.com
   port: 31180
   server: 51.159.111.32
@@ -1824,7 +1824,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10,11|🔷🆔@v2ray_configs_pool🔷 #28'
+- name: '10|Channel id: @ShadowProxy66 🇰'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -1840,7 +1840,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 11|@CanfigVip+
+- name: 11|@CanfigVip+🍕
   password: 07c122ad-50b2-4f61-9435-efcf112bb10b
   port: 56704
   server: 172.252.236.213
@@ -1890,14 +1890,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 11|10 https://dafei.de
-  password: 27e473f8-d610-4b04-bdf7-d0c39b47c897
-  port: 45000
-  server: 23.80.81.213
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
 - name: 11|v2raybluecrystal2
   obfs: salamander
   obfs-password: v2raybluecrystal
@@ -1925,28 +1917,12 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 11|美国10 付费推荐：https://dafei.de
-  password: 527a7c04-9a2c-4fdb-aa18-37337e62e917
-  port: 45000
-  server: 107.174.41.101
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
 - name: 11|@SaghiVpnX[]
   password: 568b2070-e528-444e-9cc9-3ec3debe17bf
   port: 443
   server: jp03.poke-mon.xyz
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '11|美国10 付费推荐：https://dafei.de #1'
-  password: 67828a6e-0144-4e57-8169-2447a3dd2e61
-  port: 45000
-  server: 23.80.81.213
-  skip-cert-verify: true
-  sni: www.apple.com
   tls: false
   type: hysteria2
 - name: '11|v2raybluecrystal2 #1'
@@ -1984,137 +1960,17 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|美国10 付费推荐：https://dafei.de #2'
-  password: 8a104bc2-a8d1-4f38-8c29-17176a68b7d5
-  port: 45000
-  server: 23.80.81.213
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #1'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11145
-  server: yume-ee.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #2'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11232
-  server: yume-ee.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #3'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11465
-  server: yume-es.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #4'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11496
-  server: yume-es.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #5'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11331
-  server: yume-hk.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #6'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11510
-  server: yume-hk.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #7'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11326
-  server: yume-il.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #8'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11658
-  server: yume-il.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #9'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11724
-  server: yume-nl.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #10'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11957
-  server: yume-nl.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #11'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11246
-  server: yume-pl.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #12'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11752
-  server: yume-pl.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #13'
+- name: 11|@v2ray_configs_pool🔷
   password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
   port: 11861
   server: yume-se.legeth.xyz
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #14'
+- name: 11|🔷🆔@v2ray_configs_pool🔷
   password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
   port: 11948
   server: yume-se.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #15'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11147
-  server: yume-uk.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #16'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11220
-  server: yume-uk.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #17'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11177
-  server: yume-us.legeth.xyz
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #18'
-  password: 96ccaa92-f487-4673-b8f5-a6ee167d6f39
-  port: 11484
-  server: yume-us.legeth.xyz
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -2247,7 +2103,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #19'
+- name: 11|@Daily_Configs
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -2293,7 +2149,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #21'
+- name: '11|🔷🆔@v2ray_configs_pool🔷 #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2303,7 +2159,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #24'
+- name: 11|@Filter_breaker | United Kingd...
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2313,7 +2169,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #20'
+- name: '11|🔷🆔@v2ray_configs_pool🔷 #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2323,21 +2179,11 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #22'
+- name: '11|🔷🆔@v2ray_configs_pool🔷 #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 36300
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #23'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36400
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: false
   sni: YAPC-1.afshin.ir
@@ -2379,28 +2225,12 @@ proxies:
   sni: jnir-1.pichondan.com
   tls: false
   type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #25'
-  password: cc83a02b-90ea-403b-9c76-27e4be95f637
-  port: 50256
-  server: 154.204.181.230
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '11|Telegram@vmessorg #1'
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
   server: 150.230.30.237
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '11|美国10 付费推荐：https://dafei.de #3'
-  password: dac2d4dd-9a4d-4eb0-92a6-028532caed52
-  port: 45000
-  server: 107.174.41.101
-  skip-cert-verify: true
-  sni: www.apple.com
   tls: false
   type: hysteria2
 - name: 11|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
@@ -2479,14 +2309,6 @@ proxies:
   port: 41250
   server: 5.133.102.59
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #27'
-  password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
-  port: 43057
-  server: 203.174.82.145
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '11|@V2rayNG3 #9'
@@ -2649,7 +2471,7 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
-- name: '11|🔷🆔@v2ray_configs_pool🔷 #29'
+- name: '11|🔷🆔@v2ray_configs_pool🔷 #4'
   password: wl4HYN9PPKs8d8IzGIt4yKqt0
   port: 53348
   server: 47.74.34.102
@@ -2662,6 +2484,15 @@ proxies:
   server: 18.136.211.127
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 11|@SaghiVpnX[🇸]
+  obfs: salamander
+  obfs-password: AwsdFRD453tG
+  password: zz0IPHmeNp
+  port: 48009
+  server: tamasha.asrenet.ru
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '12|Channel id: @ShadowProxy66🇺🇸 #1'
