@@ -1767,16 +1767,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10,11|@v2ray_configs_pool #19'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36600
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
 - name: '10|未命名 #2'
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
@@ -2079,6 +2069,16 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- name: '11|@v2ray_configs_pool #19'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36600
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
 - name: '11|@v2ray_configs_pool #20'
   password: a16d62f6-048d-11f0-af5a-f23c93136cb3
   port: 1743
@@ -2095,7 +2095,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 11|@V2ray_cartel
+- name: 11|@V2ray_confs
+  password: dongtaiwang.com
+  port: 4710
+  server: 108.181.5.130
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '11|@V2ray_confs #1'
   password: dongtaiwang.com
   port: 50850
   server: 45.129.2.108
@@ -2151,7 +2158,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 11|(@vmesskhodam)چنل
+- name: 11|(@vmesskhodam)چنلمون
   obfs: salamander
   obfs-password: mkv_SEfr-salamdash
   password: user10.thisismeSUperkl19201
