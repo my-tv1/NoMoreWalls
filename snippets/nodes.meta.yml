@@ -2072,7 +2072,7 @@ proxies:
   sni: api.push.apple.com
   tls: false
   type: hysteria2
-- name: '11|2025|++telegram@v2raybluecryst... #1'
+- name: 11|2025|++telegram@v2raybluecryst...
   obfs: salamander
   obfs-password: telegram@v2raybluecrystal|001_telegram@v2raybluecrystal|[telegram@v2raybluecrystal]|{telegram@v2raybluecrystal}|(telegram@v2raybluecrystal)|telegram@v2raybluecrystal
   password: 6fqm3RNcGA
@@ -2081,7 +2081,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|2025|++telegram@v2raybluecryst... #2'
+- name: '11|2025|++telegram@v2raybluecryst... #1'
   obfs: salamander
   obfs-password: telegram@v2raybluecrystal|001_telegram@v2raybluecrystal|[telegram@v2raybluecrystal]|{telegram@v2raybluecrystal}|(telegram@v2raybluecrystal)|telegram@v2raybluecrystal
   password: 6fqm3RNcGA
