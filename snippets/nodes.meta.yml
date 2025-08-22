@@ -13,6 +13,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: 10|27@oneclickvpnkeys
+  password: 10193f1d-9a4d-457a-b668-bdeb240e092c
+  port: 34444
+  server: netcupus.alisaku.com
+  skip-cert-verify: true
+  sni: apps.apple.com
+  tls: false
+  type: hysteria2
 - name: 10|37@oneclickvpnkeys
   obfs: salamander
   obfs-password: LNAnPYDfFyesRAVn
@@ -118,7 +126,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|2@oneclickvpnkeys
+- name: 10|🍇2@oneclickvpnkeys
   password: 45b46edb-679b-4ea5-befd-88c05bb94f80
   port: 2056
   server: de.eyucdn.xyz
@@ -222,7 +230,7 @@ proxies:
   sni: hsxg.huasuan666.top
   tls: false
   type: hysteria2
-- name: '10|2@oneclickvpnkeys #1'
+- name: 10|2@oneclickvpnkeys
   obfs: salamander
   obfs-password: GdQ4bgvT8RFwuWi2
   password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
@@ -346,15 +354,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|3@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36400
-  server: yapc-1.adamhayward.co.uk
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
 - name: '10,11|@Daily_Configs #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -428,7 +427,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '10,11|️ @FreakConfig #1'
+- name: '10|Channel id: @ShadowProxy66🇺🇸 #2'
   password: dongtaiwang.com
   port: 22222
   server: 208.87.243.187
@@ -482,7 +481,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇭🇰 #2'
+- name: '10|Channel id: @ShadowProxy66🇭🇰 #1'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -530,7 +529,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|🚜57@oneclickvpnkeys
+- name: 10|57@oneclickvpnkeys
   password: wxiTacqUnFMT6QPG1xHX578Omo
   port: 7444
   server: 138.197.185.116
@@ -560,6 +559,14 @@ proxies:
   server: hg.myyfqh.tech
   skip-cert-verify: false
   sni: hg.myyfqh.tech
+  tls: false
+  type: hysteria2
+- name: 11| @Cyber_Ta🌐
+  password: 0a0f1f4a-40d9-47b4-aca5-0b281daea3bb
+  port: 443
+  server: us.myyfqh.tech
+  skip-cert-verify: false
+  sni: us.myyfqh.tech
   tls: false
   type: hysteria2
 - name: 11|none
@@ -652,7 +659,7 @@ proxies:
   sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
-- name: 11| @Cyber_Ta🌐
+- name: '11| @Cyber_Ta🌐 #1'
   password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
   port: 47262
   server: 40.233.73.221
@@ -798,13 +805,6 @@ proxies:
   server: 185.126.255.78
   skip-cert-verify: false
   sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: 11|🛡️ @FreakConfig
-  password: kWlrCka5jzfKbD2z7ucwANEdZM
-  port: 26404
-  server: 47.245.53.59
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1'
