@@ -484,7 +484,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10,11| 𝗝𝗼𝗶𝗻 ➠ @Viturey
+- name: '10,11| 𝗝𝗼𝗶𝗻 ➠ @Viturey #1'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
@@ -592,14 +592,6 @@ proxies:
   server: hg.myyfqh.tech
   skip-cert-verify: false
   sni: hg.myyfqh.tech
-  tls: false
-  type: hysteria2
-- name: 11| @Cyber_Ta🌐
-  password: 0a0f1f4a-40d9-47b4-aca5-0b281daea3bb
-  port: 443
-  server: us.myyfqh.tech
-  skip-cert-verify: false
-  sni: us.myyfqh.tech
   tls: false
   type: hysteria2
 - name: 11|@V2rayNG3
@@ -931,6 +923,14 @@ proxies:
   port: 37804
   server: 78.138.118.228
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 11|@V2ray1_Ng
+  password: dongtaiwang.com
+  port: 50850
+  server: 45.129.2.108
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '11|@V2rayNG3 #8'
