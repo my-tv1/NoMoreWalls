@@ -429,7 +429,7 @@ proxies:
   sni: hk1.1010991.xyz
   tls: false
   type: hysteria2
-- name: '10,11|Telegram:@config_proxy 😍 #1'
+- name: 10,11|Telegram:@config_proxy 😍
   password: de8854c7-fa17-4266-ae18-50a9732a0c4e
   port: 3001
   server: us2.1010991.xyz
@@ -461,7 +461,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10,11|Telegram:@config_proxy 😍 #2'
+- name: '10,11|Telegram:@config_proxy 😍 #1'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
@@ -739,15 +739,6 @@ proxies:
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: false
   sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: 11|Telegram:@config_proxy 😍
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35000
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '11|🇳🇱@FreakConfig #1'
