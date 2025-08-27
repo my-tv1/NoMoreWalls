@@ -513,13 +513,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Telegram:@config_proxy '
-  password: 7GEEGxAfgQaVPQX0PGk7lIuj3I
-  port: 10820
-  server: 158.41.110.234
-  sni: ''
-  tls: false
-  type: hysteria2
 - name: 11|@FreakConfig
   password: 8b583292-c936-4723-a8c7-8adb8ecf5044
   port: 22154
