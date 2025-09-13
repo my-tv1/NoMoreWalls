@@ -17,6 +17,14 @@ proxies:
   sni: chervhill.hajalii.com
   tls: false
   type: hysteria2
+- name: 11| @Hddify
+  password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
+  port: 43429
+  server: 185.126.255.78
+  skip-cert-verify: false
+  sni: real.getafreenode.sbs
+  tls: false
+  type: hysteria2
 - name: 11|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
   password: 3QlSMKyqLp
   port: 443
@@ -31,14 +39,6 @@ proxies:
   server: de.eyucdn.xyz
   skip-cert-verify: true
   sni: de.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: 11|@HiByeVPNN️
-  password: 77b85b4f-8f73-495c-b919-a8fb386ca541
-  port: 22160
-  server: hsels.huasuan666.top
-  skip-cert-verify: true
-  sni: hsels.huasuan666.top
   tls: false
   type: hysteria2
 - name: 11|ان های ی د نل ترا💎 Config_Raye...
@@ -59,7 +59,7 @@ proxies:
   sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
-- name: 11|⚡@Takv2ray_org | SE 🇸🇪
+- name: 11|@Takv2ray_org | SE 🇸🇪
   obfs: salamander
   obfs-password: U1wBrYQyFm
   password: 80747420-96c4-4a2f-83e6-eea4e46beb09
@@ -162,7 +162,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 11|@vpnserverrr👈
+- name: 11|@vpnserverrr
   password: c9edf5cb-67ef-4440-8684-b3d301df6488
   port: 21053
   server: yue-ru.yuetoto.net
