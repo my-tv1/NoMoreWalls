@@ -496,33 +496,19 @@ proxies:
   tls: false
   type: vmess
   uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
-- flow: xtls-rprx-vision
-  name: 15|AE_speednode_0001
-  port: 20223
+- name: 15|AE_speednode_0001
+  port: 8080
   reality-opts:
-    public-key: RsbED0LyE3f2byTPx5t-dQewju6z9R4xqTWrADM4WnM
-    short-id: c6842be1
-  server: ae1-3.9966662.xyz
-  servername: www.cloudflare.com
+    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+    short-id: 27cfa05000c23cc4
+  server: 5.44.42.60
+  servername: yandex.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-- flow: xtls-rprx-vision
-  name: 15|AE_speednode_0002
-  port: 20223
-  reality-opts:
-    public-key: RsbED0LyE3f2byTPx5t-dQewju6z9R4xqTWrADM4WnM
-    short-id: c6842be1
-  server: ae1-3.9966662.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a24c6851-2055-42c1-9c20-2d3bad97334f
-- name: 15|AT_speednode_0003
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- name: 15|AT_speednode_0002
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -534,20 +520,21 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|CA_speednode_0004
-  port: 8080
+- flow: xtls-rprx-vision
+  name: 15|IL_speednode_0009
+  port: 443
   reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    short-id: 27cfa05000c23cc4
-  server: 81.19.140.20
-  servername: yandex.com
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  servername: i2pd.website
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
 - flow: xtls-rprx-vision
-  name: 15|IN_speednode_0010
+  name: 15|IN_speednode_0011
   port: 443
   reality-opts:
     public-key: YPOvUT8wDaEaMQGlWFySLMJ8VFFvSQ8ptzoA6NsdBxM
@@ -559,31 +546,7 @@ proxies:
   type: vless
   udp: true
   uuid: 9d0d265d-0df6-4bcd-b029-9407a88ec2d8
-- flow: xtls-rprx-vision
-  name: 15|IR_speednode_0011
-  port: 44443
-  reality-opts:
-    public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
-  server: hybrid.arvancloud.online
-  servername: www.speedtest.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-- flow: xtls-rprx-vision
-  name: 15|IR_speednode_0012
-  port: 44443
-  reality-opts:
-    public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
-  server: 193.151.135.21
-  servername: www.speedtest.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-- name: 15|IR_speednode_0013
+- name: 15|IR_speednode_0012
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -595,7 +558,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|JP_speednode_0014
+- name: 15|JP_speednode_0013
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -607,7 +570,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|KR_speednode_0015
+- name: 15|KR_speednode_0014
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -616,7 +579,7 @@ proxies:
   type: http
   udp: true
   username: test
-- name: 15|KZ_speednode_0016
+- name: 15|KZ_speednode_0015
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -628,7 +591,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|LB_speednode_0017
+- name: 15|LB_speednode_0016
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -640,7 +603,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|NL_speednode_0018
+- name: 15|NL_speednode_0017
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -652,12 +615,24 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|NL_speednode_0019
+- name: 15|NL_speednode_0018
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
     short-id: 27cfa05000c23cc4
   server: 77.246.100.169
+  servername: yandex.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- name: 15|PL_speednode_0019
+  port: 8080
+  reality-opts:
+    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+    short-id: 27cfa05000c23cc4
+  server: 45.144.51.23
   servername: yandex.com
   skip-cert-verify: false
   tls: true
@@ -676,7 +651,19 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|RU_speednode_0021
+- name: 15|PT_speednode_0021
+  port: 8080
+  reality-opts:
+    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+    short-id: 27cfa05000c23cc4
+  server: 31.129.22.117
+  servername: yandex.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- name: 15|RU_speednode_0022
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -688,20 +675,6 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|RU_speednode_0022
-  network: ws
-  port: 8443
-  server: 80.90.187.190
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 019995cb-7e5f-847a-7812-d2cd82dc7566
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
 - name: 15|RU_speednode_0023
   port: 8080
   reality-opts:

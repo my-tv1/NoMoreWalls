@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 15|RU_speednode_0021
+  name: 15|RU_speednode_0022
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -12,20 +12,6 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 15|RU_speednode_0022
-  network: ws
-  port: 8443
-  server: 80.90.187.190
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 019995cb-7e5f-847a-7812-d2cd82dc7566
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
 - client-fingerprint: chrome
   name: 15|RU_speednode_0023
   port: 8080
