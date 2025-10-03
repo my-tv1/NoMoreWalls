@@ -1,4 +1,14 @@
 proxies:
+- name: '10,11|@freenettir #34'
+  obfs: salamander
+  obfs-password: ki(rtoko(s-maret-khamneii
+  password: siEk2SjZFG
+  port: 2083
+  server: adas-polo-ba-mahi.kotlet.org
+  skip-cert-verify: true
+  sni: ghasem.kotlet.org
+  tls: false
+  type: hysteria2
 - name: 11|@freenettir
   password: 07c122ad-50b2-4f61-9435-efcf112bb10b
   port: 50440
@@ -528,16 +538,6 @@ proxies:
   port: 53713
   server: pouria.3dfigures.ir
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '11|@freenettir #34'
-  obfs: salamander
-  obfs-password: ki(rtoko(s-maret-khamneii
-  password: siEk2SjZFG
-  port: 2083
-  server: adas-polo-ba-mahi.kotlet.org
-  skip-cert-verify: true
-  sni: ghasem.kotlet.org
   tls: false
   type: hysteria2
 - name: 11|Telegram:@Daily_Configs
