@@ -1,4 +1,14 @@
 proxies:
+- name: '11|@V2RayyNGvpn🇩🇪  '
+  obfs: salamander
+  obfs-password: V2RayyNGvpnjdbdbMiracle
+  password: 0cHs5waV2g
+  port: 443
+  server: 91.107.150.208
+  skip-cert-verify: true
+  sni: hacks.mozilla.org
+  tls: false
+  type: hysteria2
 - name: 11|🇩🇪@EXPRESSVPN_420  همه اراتوره...
   password: 3QlSMKyqLp
   port: 443
