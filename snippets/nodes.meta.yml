@@ -6,14 +6,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 11|@IRAN_V2RAY1
-  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  port: 30300
-  server: 40.233.82.111
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 11|@Daily_Configs
   password: 2b67ONZROv+fRVMxB94BSw==
   port: 443
@@ -343,7 +335,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|🇲@FreakConfig #1'
+- name: 11|🇲@FreakConfig
   password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
   port: 41951
   server: 192.3.60.176
