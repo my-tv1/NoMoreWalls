@@ -35,7 +35,7 @@ proxies:
   sni: gb.gomeow.online
   tls: false
   type: hysteria2
-- name: 11|@FreakConfig
+- name: 11|All-@V2rayAlpha--5
   password: 20050105zhu
   port: 51541
   server: 204.44.110.129
@@ -226,7 +226,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '11|DE-telegram-@ISVvpn   :  🇺🇲'
+- name: '11|DE-telegram-@ISVvpn   :  '
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
@@ -284,7 +284,7 @@ proxies:
   sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
-- name: 11|MCI-@V2rayAlpha--3
+- name: 11|All--@V2ray_Alpha-3
   obfs: salamander
   obfs-password: GdQ4bgvT8RFwuWi2
   password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
@@ -493,7 +493,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 11|🇺🇲@FreakConfig
+- name: '11|@sunflowerplato🌻 #1'
   password: c232f411-96b5-4b07-b2f7-66a434725ffb
   port: 23891
   server: 108.165.213.197
@@ -501,7 +501,7 @@ proxies:
   sni: fus01.mistea.top
   tls: false
   type: hysteria2
-- name: '11|@FreakConfig #1'
+- name: 11|@FreakConfig
   password: c232f411-96b5-4b07-b2f7-66a434725ffb
   port: 23899
   server: 193.142.59.41
@@ -627,7 +627,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '11|🇺🇲@FreakConfig #1'
+- name: 11|🇺🇲@FreakConfig
   password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
   port: 30000
   server: us3.oomz.ru
