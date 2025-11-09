@@ -2,7 +2,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 13|🇰🇷 韩国|@ripaojiedian
+  name: 12|🇰🇷 韩国|@ripaojiedian
   port: 11215
   server: 8.148.248.105
   skip-cert-verify: false
@@ -12,7 +12,7 @@ proxies:
   uuid: c74f0304-5b43-3772-852a-2b108c423d23
 - alterId: 2
   cipher: auto
-  name: 14|韩国|@ripaojiedian
+  name: 13|韩国|@ripaojiedian
   network: tcp
   port: '11215'
   server: 8.148.248.105
