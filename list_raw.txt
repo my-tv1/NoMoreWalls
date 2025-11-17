@@ -29,7 +29,7 @@ hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@yn2.nezhasu.com:443?insecure=1&
 hysteria2://30c075af-9555-4671-b70e-43e3cfb2e707@31.57.241.25:7009?insecure=1&sni=d.eans.top#11%7Chttps%3A//t.me/Selinc
 hysteria2://338ce171-d764-4610-8fd5-6688b0d321f0@132.226.162.10:30102?insecure=1#11%7C%20%20%28Hysteria%29
 hysteria2://338ce171-d764-4610-8fd5-6688b0d321f0@140.238.137.165:30102?insecure=1&sni=du.wish.ml#11%7C%40meli_proxyy%20%2319
-hysteria2://338ce171-d764-4610-8fd5-6688b0d321f0@144.24.101.176:30102?insecure=1#11%7Cmtmvpn
+hysteria2://338ce171-d764-4610-8fd5-6688b0d321f0@144.24.101.176:30102?insecure=1#11%7Ctelegram%20%20%F0%9D%97%AE
 hysteria2://338ce171-d764-4610-8fd5-6688b0d321f0@158.180.77.90:30102?insecure=1#11%7CAll-%40V2rayAlpha--42
 hysteria2://338ce171-d764-4610-8fd5-6688b0d321f0@193.123.76.141:30102?insecure=1&sni=du.wish.ml#11%7CMCI-IR--%40V2rayAlpha-8
 hysteria2://338ce171-d764-4610-8fd5-6688b0d321f0@91.149.238.71:30102?insecure=1#11%7CMCI-IR--%40V2rayAlpha-6
@@ -142,5 +142,5 @@ vless://3c0e49cb-8940-561a-83b8-1efbb17f7cf7@185.242.84.182:443?allowInsecure=0&
 vless://72239cbc-5a25-411c-b4f5-b9167a10f5e1@77.110.127.105:443?allowInsecure=0&sni=st.ozone.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#15%7CLB_speednode_0011
 vless://4819860c-0e62-4804-9c59-967e5c2bed7a@77.110.119.225:443?allowInsecure=0&sni=st.ozone.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#15%7CLB_speednode_0012
 vless://00f02ab2-6f2d-449f-a089-d182a2fac59a@81.161.98.228:1443?allowInsecure=0&sni=cdn.filterai.ru&type=ws&host=cdn.filterai.ru&path=/websocketplsecurity=tls#15%7CRU_speednode_0013
-ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
 https://gist.githubusercontent.com/peasoft/40b87245630092f30cc98af61190b4e2/raw/
+ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
