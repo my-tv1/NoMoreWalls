@@ -1,6 +1,6 @@
 hysteria2://2408982813-20241210@genshin-v4-oracle-amd.damaoooo.com:443?insecure=0#10%2C11%7C%40FreakConfig
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@ylsl.nezhasu.com:443?insecure=1&sni=ylsl.nezhasu.com#10%7C49%40oneclickvpnkeys
-hysteria2://2cUfzeGOZG@91.99.225.11:443?insecure=1&sni=refersion.com&obfs=salamander&obfs-password=Jsbdksj@V2RayyNGvpn$Miracle#10%2C11%7C%40V2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA%20%20
+hysteria2://2cUfzeGOZG@91.99.225.11:443?insecure=1&sni=refersion.com&obfs=salamander&obfs-password=Jsbdksj@V2RayyNGvpn$Miracle#10%2C11%7C%40V2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA%20%D8%B1%D8%A7%20
 hysteria2://52d0cb21-56da-4f00-862f-be01b66446a8@falankefu1.nezhasu.com:443?insecure=1&sni=falankefu1.nezhasu.com#10%7C%F0%9F%8E%B51%40oneclickvpnkeys
 hysteria2://52d0cb21-56da-4f00-862f-be01b66446a8@gy6.nezhasu.com:443?insecure=1&sni=gy6.nezhasu.com#10%7C%F0%9F%8E%B570%40oneclickvpnkeys
 hysteria2://52d0cb21-56da-4f00-862f-be01b66446a8@lundun2.nezhasu.com:443?insecure=1&sni=lundun2.nezhasu.com#10%2C11%7C%40meli_proxyy%20%233
@@ -20,7 +20,7 @@ hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@77.90.41.197:35000?insecure=1&s
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@dir.cybsecguru.com:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi#10%7C%F0%9F%87%B3%F0%9F%87%B1%20-%20NL%20-%20%40freeOnlineVPN%20%233
 hysteria2://dongtaiwang.com@163.172.21.105:5355?insecure=1&sni=www.bing.com#10%7C%F0%9F%8E%B512%40oneclickvpnkeys
 hysteria2://dongtaiwang.com@195.154.206.231:33880?insecure=1&sni=apple.com#10%7C%F0%9F%8E%B514%40oneclickvpnkeys
-hysteria2://dongtaiwang.com@51.158.218.2:50066?insecure=1&sni=www.bing.com#10%7C5%40oneclickvpnkeys
+hysteria2://dongtaiwang.com@51.158.218.2:50066?insecure=1&sni=www.bing.com#10%7C%F0%9F%8E%B55%40oneclickvpnkeys
 hysteria2://dongtaiwang.com@51.159.111.32:5355?insecure=1&sni=www.bing.com#10%2C11%7C%40V2rayNG3%20%2317
 hysteria2://f62dcdd4-a8f8-440e-8cc7-f5bb2f762375@amsterdam.nezhasu.com:443?insecure=1&sni=Amsterdam.nezhasu.com#10%2C11%7C%40meli_proxyy%20%2316
 hysteria2://f62dcdd4-a8f8-440e-8cc7-f5bb2f762375@ashburn.nezhasu.com:443?insecure=1&sni=ashburn.nezhasu.com#10%7C%F0%9F%8E%B563%40oneclickvpnkeys
@@ -86,7 +86,7 @@ hysteria2://75577117-ABCD-DCBA-AAAA-CC777775577B@s15.serv00.com:7777?insecure=1&
 hysteria2://78c2bad7-f5f3-41f2-88cc-81de9d05040b@lsj3.mangshe.xyz:2056?insecure=1&sni=lsj3.mangshe.xyz#11%7CAll-%40V2ray_Alpha--8
 hysteria2://78c2bad7-f5f3-41f2-88cc-81de9d05040b@xg1.mangshe.xyz:2056?insecure=1&sni=xg1.mangshe.xyz#11%7C%40sunflowerplato%F0%9F%8C%BB
 hysteria2://78c2bad7-f5f3-41f2-88cc-81de9d05040b@xjp2.mangshe.xyz:2060?insecure=1&sni=xjp2.mangshe.xyz#11%7CAll-%40V2ray_Alpha--4%20%231
-hysteria2://79c4fe11-9787-406b-bf94-c1c1dbf59e28@77.223.214.193:31468?insecure=1&sni=www.bing.com#11%7C%D8%A7%20%D9%87%D8%A7%20%D8%B1%20%D8%B1%20%D9%86%20%D8%AA%D8%B1%D8%A7%F0%9F%92%8E%20Config_Rayegan...
+hysteria2://79c4fe11-9787-406b-bf94-c1c1dbf59e28@77.223.214.193:31468?insecure=1&sni=www.bing.com#11%7C%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%D8%A7%20%D8%B1%20%D8%B1%20%D9%86%20%D8%AA%D8%B1%D8%A7%F0%9F%92%8E%20Config_Ra...
 hysteria2://7TsyG1ypRJ@91.99.225.11:443?insecure=1&sni=refersion.com&obfs=salamander&obfs-password=Jsbdksj@V2RayyNGvpn$Miracle#11%7C%F0%9F%87%A9%F0%9F%87%AA%40V2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA%D9%87%D9%85%D9%87%20%D8%A7%D9%88%D9%BE%D8%B1%D8%A7%D8%AA%D9%88%D8%B1%20%D9%87...%20%231
 hysteria2://7daa4a7f-f76e-4941-84bd-c6004cdbb859@94.249.197.95:30000?insecure=1&sni=bing.com#11%7C%40V2ray1_Ng%20%231
 hysteria2://7gRVZGuNHc@91.99.225.11:443?insecure=1&sni=refersion.com&obfs=salamander&obfs-password=Jsbdksj@V2RayyNGvpn$Miracle#11%7C%F0%9F%87%A9%F0%9F%87%AA%40V2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA%D9%87%D9%85%D9%87%20%D8%A7%D9%88%D9%BE%D8%B1%D8%A7%D8%AA%D9%88%D8%B1%20%D9%87...%20%232
@@ -263,5 +263,5 @@ vless://1679af35-6dd6-4c09-ae3b-18f239217f3e@adf.ly:443?allowInsecure=1&sni=rAyA
 vless://ef352efe-2758-4093-a14d-f860c61ed578@www.speedtest.net:80?allowInsecure=0&sni=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.&type=ws&host=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.&path=/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy#15%7CUS_speednode_0079
 vless://224629c2-342b-4e54-bb75-b56cb7dabf30@zorox-net.senu-zer.online:443?allowInsecure=0&sni=zorox-net.senu-zer.online&security=tls#15%7CUS_speednode_0080
 vless://90c9c25c-df6c-4438-83d3-ef97166a9184@72.56.74.74:443?allowInsecure=0&sni=sun6-22.userapi.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#15%7CUS_speednode_0081
-ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
 https://gist.githubusercontent.com/peasoft/40b87245630092f30cc98af61190b4e2/raw/
+ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
