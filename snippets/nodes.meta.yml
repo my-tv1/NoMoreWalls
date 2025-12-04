@@ -1300,14 +1300,6 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|@V2ray1_Ng #1'
-  password: 7daa4a7f-f76e-4941-84bd-c6004cdbb859
-  port: 30000
-  server: 94.249.197.95
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
@@ -1525,7 +1517,7 @@ proxies:
 - name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: J9MCnSyy8y
+  password: I5RKPsSYiP
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -1533,6 +1525,16 @@ proxies:
   tls: false
   type: hysteria2
 - name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: J9MCnSyy8y
+  port: 443
+  server: 91.99.225.11
+  skip-cert-verify: true
+  sni: refersion.com
+  tls: false
+  type: hysteria2
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: KWodTw4Y06
@@ -1589,16 +1591,6 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4'
-  obfs: salamander
-  obfs-password: MiracleV2RayyNGvpnfreeconf
-  password: MmKPeSinVL
-  port: 2053
-  server: 83.147.253.96
-  skip-cert-verify: true
-  sni: webservice-admin.tgju.org
-  tls: false
-  type: hysteria2
 - name: 11|All-@V2rayAlpha--2
   password: MxiGoEDnLJELZicwCXwsADPdF4
   port: 29609
@@ -1607,7 +1599,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: RZjK7qHG15
@@ -1617,7 +1609,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5'
+- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: UUa5hFByN9
@@ -1627,7 +1619,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #6'
+- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: UXDYE6VRUZ
@@ -1637,7 +1629,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: VPcKd5VGwx
@@ -1647,7 +1639,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: VaKHp6TQN6
@@ -1657,7 +1649,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: XnD9ETrM9w
@@ -1667,7 +1659,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: YW97PxmYTj
@@ -1899,7 +1891,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: fYUHtSSorp
@@ -1925,7 +1917,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7'
+- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #6'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: gRpbBBxlvu
@@ -1935,7 +1927,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #8'
+- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: ihYxYCiGwv
@@ -1945,7 +1937,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9'
+- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #8'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: n70AvqlNnq
@@ -1955,7 +1947,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: oivSVs1Wgz
@@ -1965,7 +1957,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #10'
+- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: p1zskFmlFN
@@ -1975,7 +1967,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11'
+- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #10'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: sKztXL5kZB
@@ -1995,7 +1987,7 @@ proxies:
   sni: ghasem.kotlet.org
   tls: false
   type: hysteria2
-- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12'
+- name: '11|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: vrhh6FbEdi
@@ -2005,7 +1997,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: wXh99oRDIt
@@ -2015,7 +2007,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: wkAHoJxpH6
@@ -2025,7 +2017,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: yrBnLOzhOi
