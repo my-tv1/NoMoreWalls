@@ -1206,7 +1206,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪 - DE - @freeOnlineVPN #1'
+- name: 11|🇩🇪 - DE - @freeOnlineVPN
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: cUY1UIE1ef
