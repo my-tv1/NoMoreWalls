@@ -181,16 +181,6 @@ proxies:
   sni: dg1.xiaohuolongjc.top
   tls: false
   type: hysteria2
-- name: 10|77@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: KevinZakarian
-  password: '@KevinZakarian'
-  port: 22002
-  server: kevin.vpny.online
-  skip-cert-verify: true
-  sni: kevin.vpny.online
-  tls: false
-  type: hysteria2
 - name: '10|SG #5'
   password: KYIFgW1don6L8TaDBJHynafxZ0
   port: 4763
@@ -276,7 +266,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10,11|🇳🇱 - NL - @freeOnlineVPN #2'
+- name: 10,11|All--@V2rayAlpha--27
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -286,7 +276,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10,11|🇪 - DE - @freeOnlineVPN
+- name: '10,11|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -296,7 +286,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10,11|🇩🇪 - DE - @freeOnlineVPN #1'
+- name: '10,11|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -322,7 +312,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|️3@oneclickvpnkeys
+- name: 10|15@oneclickvpnkeys
   password: dongtaiwang.com
   port: 33880
   server: 195.154.206.231
