@@ -194,5 +194,5 @@ vless://4c9541c7-5fa1-403c-84af-175e3b25a27f@104.21.15.212:8080?allowInsecure=0&
 vless://6072c15c-99db-4880-99d0-1448a8d43da7@Www.speedtest.net:8880?allowInsecure=0&sni=mx.mmadvip8563.ir&type=ws&host=mx.mmadvip8563.ir&path=/?ed=2048#15%7CUS_speednode_0029
 vless://49aefaed-ad06-4ce9-ad25-b75b6b489b0c@Www.speedtest.net:8880?allowInsecure=0&sni=mx.mmadvip8563.ir&type=ws&host=mx.mmadvip8563.ir&path=/?ed=2048#15%7CUS_speednode_0030
 vless://41398380-2073-4d85-878a-24194a6f04a3@172.67.176.159:80?allowInsecure=0&sni=3.azadteam.workers.dev&type=ws&host=3.azadteam.workers.dev&path=/Sy0HOf5sZffep0QQ?ed=2560#15%7CUS_speednode_0031
-https://gist.githubusercontent.com/peasoft/40b87245630092f30cc98af61190b4e2/raw/
 hhy2://16461a78-363c-457a-92f9-83b0a68edc37@hk.eyucdn.xyz:2056/?insecure=1&sni=hk.eyucdn.xyz#
+https://gist.githubusercontent.com/peasoft/40b87245630092f30cc98af61190b4e2/raw/
