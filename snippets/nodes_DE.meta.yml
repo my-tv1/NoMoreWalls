@@ -62,7 +62,7 @@ proxies:
 - name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #5'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: EKLeRwhlYy
+  password: AXvJYnaaqG
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -189,7 +189,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪 - DE - @freeOnlineVPN #2'
+- name: 11|🇪 - DE - @freeOnlineVPN
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: ltN6NLua9i
@@ -222,16 +222,6 @@ proxies:
 - name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: wXh99oRDIt
-  port: 443
-  server: 91.99.225.11
-  skip-cert-verify: true
-  sni: refersion.com
-  tls: false
-  type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
-  obfs: salamander
-  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: wkAHoJxpH6
   port: 443
   server: 91.99.225.11
@@ -239,7 +229,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #23'
+- name: '11|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: zdUcTseVJy
