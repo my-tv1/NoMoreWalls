@@ -1,26 +1,10 @@
 proxies:
-- name: 10|DE
-  password: 7JnRmdeMP4gsvp0nXjYofBNvsdk
-  port: 7414
-  server: 3.75.180.49
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '10,11|🔸@IRAN_V2RAY1💘 #5'
-  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
-  port: 2056
-  server: de.eyucdn.xyz
-  skip-cert-verify: true
-  sni: de.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: '11|🇩🇪 - DE - @freeOnlineVPN #4'
+- name: 11|🇪 - DE - @freeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
-  server: api.kermanshahi.org
+  server: 5.175.249.174
   skip-cert-verify: false
   sni: api.kermanshahi.org
   tls: false
@@ -28,9 +12,9 @@ proxies:
 - client-fingerprint: chrome
   name: 15|DE_speednode_0002
   network: ws
-  port: 20531
-  server: 82.115.31.209
-  servername: miku.mikuru.ip-ddns.com
+  port: 8081
+  server: 31.25.88.229
+  servername: etc.mesa.ip-ddns.com
   skip-cert-verify: false
   tls: true
   type: vless
@@ -38,5 +22,5 @@ proxies:
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: miku.mikuru.ip-ddns.com
+      Host: etc.mesa.ip-ddns.com
     path: /@Marisa_kristi
