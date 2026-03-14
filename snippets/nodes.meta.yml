@@ -47,7 +47,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 11|@harfbzaniiim
+- name: 11|@V2HUBIR
   obfs: salamander
   obfs-password: pGBT2RES32Gr7S8DQx
   password: 00a40f88-0900-4c29-9555-cf053a23071b
